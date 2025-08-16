@@ -18,3 +18,4 @@
 {"category": "访问日志", "event": "http请求", "time": "2025-08-16T16:06:58", "number": 8000, "detail": "127.0.0.1 请求 /favicon.ico", "more_detail": "状态: 200, 消息: GET /favicon.ico HTTP/1.1"}
 {"category": "访问日志", "event": "http请求", "time": "2025-08-16T16:07:30", "number": 8000, "detail": "127.0.0.1 请求 /", "more_detail": "状态: 200, 消息: GET / HTTP/1.1"}
 {"category": "访问日志", "event": "http请求", "time": "2025-08-16T16:07:30", "number": 8000, "detail": "127.0.0.1 请求 /favicon.ico", "more_detail": "状态: 200, 消息: GET /favicon.ico HTTP/1.1"}
+{"category": "访问日志", "event": "http请求", "time": "2025-08-16T23:12:12", "number": 8000, "detail": "127.0.0.1 请求 /", "more_detail": "状态: 200, 消息: GET / HTTP/1.1"}
