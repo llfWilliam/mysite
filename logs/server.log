@@ -19,3 +19,10 @@
 {"category": "访问日志", "event": "http请求", "time": "2025-08-16T16:07:30", "number": 8000, "detail": "127.0.0.1 请求 /", "more_detail": "状态: 200, 消息: GET / HTTP/1.1"}
 {"category": "访问日志", "event": "http请求", "time": "2025-08-16T16:07:30", "number": 8000, "detail": "127.0.0.1 请求 /favicon.ico", "more_detail": "状态: 200, 消息: GET /favicon.ico HTTP/1.1"}
 {"category": "访问日志", "event": "http请求", "time": "2025-08-16T23:12:12", "number": 8000, "detail": "127.0.0.1 请求 /", "more_detail": "状态: 200, 消息: GET / HTTP/1.1"}
+{"category": "访问日志", "event": "http请求", "time": "2025-08-17T01:14:10", "number": 8000, "detail": "127.0.0.1 请求 /", "more_detail": "状态: 200, 消息: GET / HTTP/1.1"}
+{"category": "访问日志", "event": "http请求", "time": "2025-08-17T01:14:42", "number": 8000, "detail": "127.0.0.1 请求 /9000", "more_detail": "状态: File not found, 消息: 404"}
+{"category": "访问日志", "event": "http请求", "time": "2025-08-17T01:14:42", "number": 8000, "detail": "127.0.0.1 请求 /9000", "more_detail": "状态: 404, 消息: GET /9000 HTTP/1.1"}
+{"category": "访问日志", "event": "http请求", "time": "2025-08-17T01:14:59", "number": 8000, "detail": "127.0.0.1 请求 /9000/status", "more_detail": "状态: File not found, 消息: 404"}
+{"category": "访问日志", "event": "http请求", "time": "2025-08-17T01:14:59", "number": 8000, "detail": "127.0.0.1 请求 /9000/status", "more_detail": "状态: 404, 消息: GET /9000/status HTTP/1.1"}
+{"category": "访问日志", "event": "http请求", "time": "2025-08-17T01:15:02", "number": 8000, "detail": "127.0.0.1 请求 /9000/status", "more_detail": "状态: File not found, 消息: 404"}
+{"category": "访问日志", "event": "http请求", "time": "2025-08-17T01:15:02", "number": 8000, "detail": "127.0.0.1 请求 /9000/status", "more_detail": "状态: 404, 消息: GET /9000/status HTTP/1.1"}

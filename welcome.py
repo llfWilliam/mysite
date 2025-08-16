@@ -9,7 +9,7 @@ def show_welcome(port: int):
         category="system",
         event="server_start",
         number=port,
-        detail=f"李刘凡，欢迎你！今天是 {today_str} {weekday_str}",
+        detail=f"管理员，欢迎你！今天是 {today_str} {weekday_str}",
         more_detail=f"服务器已启动，端口号为 {port}"
     )
     msg = json.loads(welcome_json)

@@ -1,14 +1,9 @@
 from flask import Flask, jsonify
+from handler import ADMIN_LOG, DEBUG_LOG
 import os
 import time
 
 app = Flask(__name__)
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_DIR = os.path.join(BASE_DIR, "logs")
-
-ADMIN_LOG = os.path.join(LOG_DIR, "admin.log")
-DEBUG_LOG = os.path.join(LOG_DIR, "server.log")
 
 START_TIME = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 

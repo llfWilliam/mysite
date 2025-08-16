@@ -3,15 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<title>管理端</title>
+	<link id="theme-link" rel="stylesheet" href="light.css">
+	<!--<link> 标签用来引入一个外部的 CSS 文件。
+	rel="stylesheet" → 告诉浏览器这是样式表。
+	href="light.css" → 默认加载 light.css（白天模式）。
+	id="theme-link" → 给它一个 id，以便 JS 能找到并修改它。-->
 	<style>
+		/* 让标题居中 */
+		h1 {
+			text-align: center;
+		}
+		/* 用一个容器包住按钮，并靠右对齐 */
+		.top-buttons {
+			text-align: right;
+			margin: 10px 20px;
+		}
 	</style>
 </head>
 <body>
 	<h1>欢迎进入管理端页面！</h1>
+	
+	<div class="top-buttons">
+	<button onclick="setTheme('light.css')">白天模式</button>
+	<button onclick="setTheme('dark.css')">黑夜模式</button>
+	</div>
+	<script src="theme.js"></script>
+	
+	
 	<div id="status">加载状态中...</div>	<!--创造了一个status容器用来存放服务器状态-->
 	<h2>访问日志</h2>
 	<div id="logs">加载日志中...</div>		<!--一样，创造了一个容器存放日志内容-->
 	<button onclick="loadLogs()">刷新日志</button>
 	<script src="script.js"></script>
+	
+	
 </body>
 </html>
