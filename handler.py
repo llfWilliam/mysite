@@ -12,6 +12,10 @@ os.makedirs(LOG_DIR, exist_ok=True)
 ADMIN_LOG = os.path.join(LOG_DIR, "admin.log")
 DEBUG_LOG = os.path.join(LOG_DIR, "server.log")
 class MyHandler(SimpleHTTPRequestHandler):                 #继承了他的类
+    def do_GET(self):
+        if self.path in ("/admin", "/admin/"):
+            self.path = "/manage.html"   # 映射到 site/manage.html
+        return super().do_GET()
     def log_message(self, format, *args):
         # 生成结构化日志
         log_json = mymessage(
