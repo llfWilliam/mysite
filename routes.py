@@ -19,7 +19,7 @@ DEBUG_LOG = "audit.log"
 #每次打开都会清空管理员日志，方便前端管理
 open("admin.log", "w").close()          #每次启动服务器都要清空管理员日志
 
-#利用标准日志函数来处理普通日志
+#利用标准日志函数来处理普通日志，注意，标准日志函数全局只能调用一次
 logging.basicConfig(
     filename=DEBUG_LOG,  # 默认所有日志写到 audit.log 文件里。
     level=logging.INFO,     #设置日志等级，只有 INFO 及以上的日志会被写进去
