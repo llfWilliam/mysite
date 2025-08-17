@@ -1,6 +1,5 @@
 import json
 from datetime import datetime
-from message import mymessage
 
 def show_welcome(port: int):
     today_str = datetime.now().strftime("%Y年%m月%d日")

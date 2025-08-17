@@ -5,3 +5,1339 @@
 127.0.0.1 - - [17/Aug/2025 22:42:43] "GET / HTTP/1.1" 200 -
 {"time": "2025-08-17 22:42:43", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
 127.0.0.1 - - [17/Aug/2025 22:42:43] "GET /favicon.ico HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-18 00:25:52", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:25:52] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-18 00:25:52", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:25:52] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-18 00:25:52", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:25:52] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-18 00:25:53", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:25:53] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-18 00:25:54", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:25:54] "GET / HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-18 00:47:53", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 304, "duration_ms": 83, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:53] "[36mGET /admin HTTP/1.1[0m" 304 -
+{"time": "2025-08-18 00:47:53", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:53] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 00:47:53", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:53] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 00:47:53", "ip": "127.0.0.1", "method": "GET", "path": "/manage.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:53] "[36mGET /manage.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-18 00:47:53", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:53] "GET /favicon.ico HTTP/1.1" 200 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:47:53", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:53] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+{"time": "2025-08-18 00:47:53", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 31, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:53] "GET /status HTTP/1.1" 200 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:47:55", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:55] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:47:59", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:47:59] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:04", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:04] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:09", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:09] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:14", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:14] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:19", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:19] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:24", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:24] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:29", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:29] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:34", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:34] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:39", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:39] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:44", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:44] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:49", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:49] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:54", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:54] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:48:59", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:48:59] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:04", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:04] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:10", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:10] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:15", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:15] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:20] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:25", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:25] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:30", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:30] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:35", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:35] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:40", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:40] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:45", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:45] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:50", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:50] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:49:55", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:49:55] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:50:00", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:50:00] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:50:05", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:50:05] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:50:10", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:50:10] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:50:15", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:50:15] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:50:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:50:20] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:50:25", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:50:25] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 46, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 00:50:30", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 00:50:30] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-18 01:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 200, "duration_ms": 96, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:08] GET /admin -> 200 (96ms)
+127.0.0.1 - - [18/Aug/2025 01:05:08] "GET /admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-08-18 01:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:08] GET /light.css -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:05:08] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:08] GET /admin.js -> 200 (2ms)
+127.0.0.1 - - [18/Aug/2025 01:05:08] "GET /admin.js HTTP/1.1" 200 -
+[2025-08-18 01:05:08] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:05:08] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:08] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:05:08] "GET /favicon.ico HTTP/1.1" 200 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:08] GET /logs/admin -> 500 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:05:08] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+{"time": "2025-08-18 01:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 18, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:08] GET /status -> 200 (18ms)
+127.0.0.1 - - [18/Aug/2025 01:05:08] "GET /status HTTP/1.1" 200 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:11] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:11] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:13", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:13] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:13] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:18", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:18] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:18] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:23", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:23] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:23] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:28", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:28] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:28] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:33", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:33] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:33] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:38", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:38] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:05:38] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:43", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:43] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:43] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:48", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:48] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:05:48] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:53", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:53] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:53] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:05:58", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:05:58] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:05:58] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:03", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:03] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:06:03] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:08", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:08] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:06:08] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:13", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:13] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:06:13] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:18", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:18] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:06:18] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:23", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:23] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:06:23] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:28", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:28] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:06:28] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:33", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:33] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:06:33] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:38", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:38] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:06:38] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:43", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:43] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:06:43] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:48", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:48] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:06:48] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:54", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:54] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:06:54] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:06:59", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:06:59] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:06:59] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:07:04", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:07:04] GET /logs/admin -> 500 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:07:04] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:07:09", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:07:09] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:07:09] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:07:14", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:07:14] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:07:14] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+{"time": "2025-08-18 01:07:15", "ip": "127.0.0.1", "method": "GET", "path": "/log/admin", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:07:15] GET /log/admin -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:07:15] "[33mGET /log/admin HTTP/1.1[0m" 404 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:07:27", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:07:27] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:07:27] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+{"time": "2025-08-18 01:09:18", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:18] GET /admin -> 200 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:09:18] "GET /admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:09:18", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:18] GET /light.css -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:09:18] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:09:18", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:18] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:09:18] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:09:18", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:18] GET /admin.js -> 200 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:09:18] "GET /admin.js HTTP/1.1" 200 -
+{"time": "2025-08-18 01:09:18", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:18] GET /light.css -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:09:18] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:09:18", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:18] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:09:18] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:09:18", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:18] GET /status -> 200 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:09:18] "GET /status HTTP/1.1" 200 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(ADMIN_LOG):
+                      ^^^^^^^^^
+NameError: name 'ADMIN_LOG' is not defined
+{"time": "2025-08-18 01:09:18", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:18] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:09:18] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(admin.log):
+                      ^^^^^
+NameError: name 'admin' is not defined
+{"time": "2025-08-18 01:09:45", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:45] GET /logs/admin -> 500 (2ms)
+127.0.0.1 - - [18/Aug/2025 01:09:45] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+Exception on /logs/admin [GET]
+Traceback (most recent call last):
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\10476\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\mysite\routes.py", line 53, in get_admin_logs
+    if os.path.exists(admin.log):
+                      ^^^^^
+NameError: name 'admin' is not defined
+{"time": "2025-08-18 01:09:48", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 500, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:48] GET /logs/admin -> 500 (1ms)
+127.0.0.1 - - [18/Aug/2025 01:09:48] "[35m[1mGET /logs/admin HTTP/1.1[0m" 500 -
+{"time": "2025-08-18 01:09:48", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 80, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:09:48] GET /favicon.ico -> 200 (80ms)
+127.0.0.1 - - [18/Aug/2025 01:09:48] "GET /favicon.ico HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-18 01:13:17", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:17] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [18/Aug/2025 01:13:17] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:13:24", "ip": "127.0.0.1", "method": "GET", "path": "/ladmin", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:24] GET /ladmin -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:13:24] "[33mGET /ladmin HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:13:28", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 304, "duration_ms": 80, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:28] GET /admin -> 304 (80ms)
+127.0.0.1 - - [18/Aug/2025 01:13:28] "[36mGET /admin HTTP/1.1[0m" 304 -
+{"time": "2025-08-18 01:13:28", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:28] GET /light.css -> 404 (0ms)
+{"time": "2025-08-18 01:13:28", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [18/Aug/2025 01:13:28] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:13:28", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:28] GET /admin.js -> 304 (1ms)
+[2025-08-18 01:13:28] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:13:28] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [18/Aug/2025 01:13:28] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:13:28", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:28] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [18/Aug/2025 01:13:28] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:13:28", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 13, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:28] GET /status -> 200 (13ms)
+127.0.0.1 - - [18/Aug/2025 01:13:28] "GET /status HTTP/1.1" 200 -
+{"time": "2025-08-18 01:13:33", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:33] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [18/Aug/2025 01:13:33] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:13:36", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:36] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [18/Aug/2025 01:13:36] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:13:38", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:38] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [18/Aug/2025 01:13:38] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:13:43", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:43] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [18/Aug/2025 01:13:44] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:13:46", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:46] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:13:46] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:13:49", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:13:49] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [18/Aug/2025 01:13:49] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-18 01:15:54", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 133, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:15:54] GET / -> 200 (133ms)
+127.0.0.1 - - [18/Aug/2025 01:15:54] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-18 01:15:57", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:15:57] GET /admin -> 200 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:15:57] "GET /admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:15:57", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:15:57] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:15:57] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:15:57", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:15:57] GET /admin.js -> 304 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:15:57] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-18 01:15:57", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:15:57] GET /light.css -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:15:57] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:15:57", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:15:57] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [18/Aug/2025 01:15:57] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:15:57", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 15, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:15:57] GET /status -> 200 (15ms)
+127.0.0.1 - - [18/Aug/2025 01:15:57] "GET /status HTTP/1.1" 200 -
+{"time": "2025-08-18 01:15:59", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:15:59] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:15:59] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:16:00", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:16:00] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [18/Aug/2025 01:16:00] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:16:02", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:16:02] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:16:02] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:16:08", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:16:08] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:16:08] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:16:13", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:16:13] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:16:13] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:16:18", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:16:18] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [18/Aug/2025 01:16:18] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-18 01:22:17", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 83, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:17] GET / -> 200 (83ms)
+127.0.0.1 - - [18/Aug/2025 01:22:17] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:20", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:20] GET /admin -> 304 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:22:20] "[36mGET /admin HTTP/1.1[0m" 304 -
+{"time": "2025-08-18 01:22:20", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:20] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:22:20] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:22:20", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:20] GET /light.css -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:22:20] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 01:22:20", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:20] GET /admin.js -> 304 (2ms)
+127.0.0.1 - - [18/Aug/2025 01:22:20] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-18 01:22:20", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:20] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:22:20] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:20] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [18/Aug/2025 01:22:20] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:20", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 14, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:20] GET /status -> 200 (14ms)
+127.0.0.1 - - [18/Aug/2025 01:22:20] "GET /status HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:22", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:22] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [18/Aug/2025 01:22:22] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:25", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:25] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:22:25] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:30", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:30] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:22:30] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:36", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:36] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:22:36] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:41", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:41] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [18/Aug/2025 01:22:41] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:46", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:46] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [18/Aug/2025 01:22:46] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:51", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:51] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [18/Aug/2025 01:22:51] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:22:56", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:22:56] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [18/Aug/2025 01:22:56] "GET /logs/admin HTTP/1.1" 200 -
