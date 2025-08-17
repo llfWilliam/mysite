@@ -46,5 +46,4 @@ def get_status():
     return jsonify(status_info)
     
 if __name__ == "__main__":
-    # 本地开发用；上线请换 WSGI 服务器（如 waitress-serve）
     app.run(host="127.0.0.1", port=8000, debug=False)
