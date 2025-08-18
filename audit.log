@@ -1341,3 +1341,48 @@ NameError: name 'admin' is not defined
 {"time": "2025-08-18 01:22:56", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
 [2025-08-18 01:22:56] GET /logs/admin -> 200 (6ms)
 127.0.0.1 - - [18/Aug/2025 01:22:56] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:23:01", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:23:01] GET /logs/admin -> 200 (0ms)
+127.0.0.1 - - [18/Aug/2025 01:23:01] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:23:06", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 19, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:23:06] GET /logs/admin -> 200 (19ms)
+127.0.0.1 - - [18/Aug/2025 01:23:06] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:23:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:23:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [18/Aug/2025 01:23:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:23:16", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:23:16] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [18/Aug/2025 01:23:16] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 01:23:21", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 01:23:21] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [18/Aug/2025 01:23:21] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-18 02:12:01", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 77, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 02:12:01] GET / -> 304 (77ms)
+127.0.0.1 - - [18/Aug/2025 02:12:01] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-08-18 02:12:06", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 02:12:06] GET /admin -> 304 (0ms)
+127.0.0.1 - - [18/Aug/2025 02:12:06] "[36mGET /admin HTTP/1.1[0m" 304 -
+{"time": "2025-08-18 02:12:06", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-08-18 02:12:06", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 02:12:06] GET /light.css -> 404 (0ms)
+[2025-08-18 02:12:06] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [18/Aug/2025 02:12:06] "[33mGET /light.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [18/Aug/2025 02:12:06] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-18 02:12:06", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 02:12:06] GET /admin.js -> 200 (1ms)
+127.0.0.1 - - [18/Aug/2025 02:12:06] "GET /admin.js HTTP/1.1" 200 -
+{"time": "2025-08-18 02:12:06", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 02:12:06] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [18/Aug/2025 02:12:06] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 02:12:06", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 15, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 02:12:06] GET /status -> 200 (15ms)
+127.0.0.1 - - [18/Aug/2025 02:12:06] "GET /status HTTP/1.1" 200 -
+{"time": "2025-08-18 02:12:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 02:12:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [18/Aug/2025 02:12:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-18 02:12:23", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-18 02:12:23] GET / -> 200 (0ms)
+127.0.0.1 - - [18/Aug/2025 02:12:23] "GET / HTTP/1.1" 200 -
