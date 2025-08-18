@@ -4,6 +4,7 @@ import time
 from flask import request, g
 import logging
 import json
+import mysql.connector
 
 app = Flask(__name__, static_folder="static", static_url_path="")       #把flask服务拉起来
 
@@ -11,6 +12,18 @@ app = Flask(__name__, static_folder="static", static_url_path="")       #把flas
 BASE_DIR = os.path.dirname(__file__)
 SITE_DIR = os.path.join(BASE_DIR, "static")
 START_TIME = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+
+# 从环境变量里读取数据库配置
+db = mysql.connector.connect(
+    host=os.getenv("DB_HOST", "localhost"),
+    user=os.getenv("DB_USER", "root"),
+    password=os.getenv("DB_PASSWORD", ""),                      #getenv的意思就是取系统环境变量，在高级系统设置里面改就行，这样安全一点
+    database=os.getenv("DB_NAME", "mysite")
+)
+cursor = db.cursor(dictionary=True)             
+#建立一个“游标”对象，用来执行 SQL，
+#dictionary=True 表示查询结果会变成字典形式（键=字段名），比元组好用。
+
 
 #写下管理员日志和普通日志的变量方便管理
 ADMIN_LOG = "admin.log"
@@ -91,5 +104,60 @@ def get_status():
     }
     return jsonify(status_info)
 
+@app.route("/register", methods=["POST"])
+def register():
+    """注册接口"""
+    data = request.json                     #解析前端发过来的json数据
+    username = data.get("username")
+    password = data.get("password")
+
+    # 判断是否已存在
+    cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
+    if cursor.fetchone():                   #如果有结果被取出
+        return jsonify({"success": False, "message": "账号已存在"})
+
+    # 插入数据库
+    cursor.execute("INSERT INTO users (username, password) VALUES (%s, %s)", (username, password))
+    db.commit()
+    return jsonify({"success": True, "message": "注册成功"})
+
+    # 登录接口
+@app.route("/login", methods=["POST"])
+def login():
+    data = request.json
+    username = data.get("username")
+    password = data.get("password")
+
+    cursor.execute("SELECT * FROM users WHERE username = %s AND password = %s", (username, password))
+    user = cursor.fetchone()
+    if user:                                #如果有结果被取出
+        return jsonify({"success": True, "message": "登录成功"})
+    else:
+        return jsonify({"success": False, "message": "账号或密码错误"})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8000, debug=False)
+    
