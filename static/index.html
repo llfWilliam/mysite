@@ -1,5 +1,50 @@
-<!doctype html>
-<meta charset="utf-8">
-<title>我做的第一个网页涅，开心 </title>
-<h1>你好！世界！</h1>
-<p>这是我用python搭建的网站</p>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的网站 - 首页</title>
+    <link id="theme-link" rel="stylesheet" href="light.css">
+    <style>
+        .welcome-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .feature-list {
+            max-width: 600px;
+            margin: 30px auto;
+            text-align: left;
+        }
+        .nav-buttons {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-buttons">
+        <button onclick="setTheme('light.css')">白天模式</button>
+        <button onclick="setTheme('dark.css')">黑夜模式</button>
+    </div>
+    <script src="theme.js"></script>
+    
+    <div class="welcome-container">
+        <h1>欢迎来到我的网站</h1>
+        <p>您已成功登录系统</p>
+        
+        <div class="feature-list">
+            <h2>网站功能</h2>
+            <ul>
+                <li>用户登录与注册</li>
+                <li>主题切换（白天/黑夜模式）</li>
+                <li>管理员日志查看</li>
+                <li>调试日志查看</li>
+                <li>服务器状态监控</li>
+            </ul>
+        </div>
+        
+        <div class="nav-buttons">
+            <button onclick="window.location.href='/admin'">进入管理页面</button>
+            <button onclick="window.location.href='/'">返回登录页</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/* dark.css - 暗色主题 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2ecc71;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+#status {
+    background-color: #2c3e50;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border-left: 4px solid #3498db;
+}
+
+#logs {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    height: 400px;
+    overflow-y: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
+    margin-bottom: 10px;
+}
+
+.log-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.log-controls h2 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#log-type-indicator {
+    font-weight: bold;
+    color: #3498db;
+    min-width: 80px;
+    display: inline-block;
+}

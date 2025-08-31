@@ -13,18 +13,44 @@ async function loadStatus() {
   }
 }
 
+// 当前日志类型：admin或debug
+let currentLogType = "admin";
+
 async function loadLogs() {
   try {
-    const res = await fetch("/logs/admin");//res 是一个 Response 对象，里面有 status、ok、json() 等属性和方法。
+    const logEndpoint = currentLogType === "admin" ? "/logs/admin" : "/logs/debug";
+    const res = await fetch(logEndpoint);
     if (!res.ok) throw new Error("HTTP " + res.status);
-    const data = await res.json();          // 你的后端这里返回的是一个字符串数组
-    q("logs").innerText = Array.isArray(data) ? data.join("\n") : JSON.stringify(data);//Array.isArray(data) → 判断 data 是否为数组：
-//如果是数组，就 join("\n")，拼成一整个多行字符串，展示在页面里。
-//如果不是数组，就直接 JSON.stringify(data)，转成 JSON 字符串显示。
+    const data = await res.json();
+    
+    // 根据日志类型处理显示方式
+    if (currentLogType === "admin") {
+      // 管理日志直接显示
+      q("logs").innerText = Array.isArray(data) ? data.join("\n") : JSON.stringify(data);
+    } else {
+      // 调试日志需要格式化JSON
+      q("logs").innerText = Array.isArray(data) 
+        ? data.map(line => {
+            try {
+              const parsed = JSON.parse(line);
+              return JSON.stringify(parsed, null, 2);
+            } catch {
+              return line;
+            }
+          }).join("\n\n")
+        : JSON.stringify(data);
+    }
   } catch (err) {
     console.error("loadLogs error:", err);
     q("logs").innerText = "❌ 无法获取日志：" + err.message;
   }
+}
+
+// 切换日志类型
+function switchLogType(type) {
+  currentLogType = type;
+  q("log-type-indicator").innerText = type === "admin" ? "管理日志" : "调试日志";
+  loadLogs();
 }
 
 document.addEventListener("DOMContentLoaded", () => {

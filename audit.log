@@ -1725,3 +1725,1422 @@ NameError: name 'admin' is not defined
 {"time": "2025-08-19 00:25:35", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
 [2025-08-19 00:25:35] GET /logs/admin -> 200 (7ms)
 127.0.0.1 - - [19/Aug/2025 00:25:35] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-19 15:59:02", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 74, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:02] GET / -> 200 (74ms)
+127.0.0.1 - - [19/Aug/2025 15:59:02] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 15:59:03", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 288, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:03] GET /favicon.ico -> 200 (288ms)
+127.0.0.1 - - [19/Aug/2025 15:59:03] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-19 15:59:54", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:54] GET /admin -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 15:59:54] "GET /admin HTTP/1.1" 200 -
+{"time": "2025-08-19 15:59:54", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:54] GET /light.css -> 404 (0ms)
+127.0.0.1 - - [19/Aug/2025 15:59:54] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-19 15:59:54", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:54] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [19/Aug/2025 15:59:54] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-19 15:59:54", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:54] GET /admin.js -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 15:59:54] "GET /admin.js HTTP/1.1" 200 -
+{"time": "2025-08-19 15:59:54", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:54] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 15:59:54] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-19 15:59:54", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:54] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 15:59:54] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 15:59:54", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 28, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:54] GET /status -> 200 (28ms)
+127.0.0.1 - - [19/Aug/2025 15:59:54] "GET /status HTTP/1.1" 200 -
+{"time": "2025-08-19 15:59:59", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 15:59:59] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 15:59:59] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:05", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:05] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:00:05] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:09", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:09] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:00:09] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:14", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:14] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:00:14] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:20] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 16:00:20] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:25", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:25] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 16:00:25] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:30", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:30] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:00:30] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:35", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:35] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 16:00:35] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:40", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:40] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:00:40] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:45", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:45] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 16:00:45] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:50", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:50] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:00:50] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:00:55", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:00:55] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 16:00:55] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:00", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:00] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:01:00] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:05", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:05] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:01:05] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:10", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:10] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:01:10] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:15", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:15] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:01:15] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:20] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:01:20] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:25", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:25] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:01:25] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:30", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:30] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:01:30] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:35", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:35] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 16:01:35] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:40", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:40] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:01:40] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:45", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:45] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:01:45] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:50", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:50] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:01:50] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:01:54", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:01:54] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:01:54] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:00", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:00] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:02:00] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:05", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:05] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 16:02:05] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:10", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 21, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:10] GET /logs/admin -> 200 (21ms)
+127.0.0.1 - - [19/Aug/2025 16:02:10] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:15", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 18, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:15] GET /logs/admin -> 200 (18ms)
+127.0.0.1 - - [19/Aug/2025 16:02:15] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:20] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:02:20] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:25", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:25] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:02:25] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:30", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:30] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:02:30] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:35", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:35] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 16:02:35] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:40", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:40] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 16:02:40] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:45", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:45] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:02:45] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:02:50", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:02:50] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:02:50] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:03:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:03:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:03:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:04:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:04:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:04:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:05:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:05:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:05:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:06:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:06:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:06:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:07:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:07:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:07:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:08:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:08:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 16:08:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:09:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:09:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:09:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:10:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:10:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 16:10:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:11:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 15, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:11:11] GET /logs/admin -> 200 (15ms)
+127.0.0.1 - - [19/Aug/2025 16:11:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:12:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:12:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:12:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:13:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:13:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:13:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:14:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:14:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:14:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:15:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:15:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:15:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:16:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:16:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:16:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:17:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:17:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:17:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:18:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:18:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:18:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:19:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:19:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:19:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:20:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:20:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 16:20:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:21:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:21:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:21:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:22:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:22:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 16:22:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:23:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:23:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:23:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:24:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:24:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:24:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:25:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:25:11] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 16:25:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:26:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:26:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:26:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:27:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:27:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:27:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:28:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:28:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:28:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:29:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:29:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 16:29:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:30:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:30:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:30:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:31:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:31:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:31:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:32:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:32:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 16:32:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:33:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:33:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:33:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:34:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:34:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:34:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:35:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:35:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:35:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:36:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:36:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:36:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:37:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:37:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:37:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:38:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 13, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:38:11] GET /logs/admin -> 200 (13ms)
+127.0.0.1 - - [19/Aug/2025 16:38:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:39:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:39:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:39:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:40:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:40:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:40:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:41:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:41:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:41:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:42:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:42:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 16:42:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:43:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:43:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:43:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:44:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:44:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:44:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:45:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:45:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:45:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:46:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:46:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:46:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:47:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:47:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:47:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:48:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 13, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:48:11] GET /logs/admin -> 200 (13ms)
+127.0.0.1 - - [19/Aug/2025 16:48:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:49:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:49:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:49:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:50:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:50:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:50:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:51:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:51:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:51:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:52:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:52:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:52:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:53:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:53:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:53:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:54:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:54:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:54:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:55:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:55:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:55:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:56:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:56:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 16:56:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:57:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:57:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:57:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:58:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:58:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 16:58:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 16:59:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 16:59:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 16:59:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:00:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:00:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:00:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:01:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:01:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 17:01:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:02:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:02:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:02:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:03:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:03:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:03:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:04:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:04:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:04:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:05:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:05:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:05:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:06:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:06:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:06:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:07:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:07:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 17:07:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:08:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:08:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:08:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:09:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:09:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:09:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:10:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:10:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:10:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:11:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:11:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:11:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:12:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:12:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 17:12:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:13:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:13:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:13:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:14:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:14:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 17:14:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:15:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:15:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:15:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:16:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:16:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:16:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:17:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:17:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:17:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:18:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:18:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:18:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:19:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:19:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:19:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:20:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:20:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:20:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:21:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:21:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:21:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:22:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:22:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 17:22:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:23:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:23:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:23:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:24:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:24:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:24:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:25:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:25:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 17:25:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:26:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:26:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:26:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:27:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:27:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:27:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:28:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:28:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:28:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:29:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:29:11] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 17:29:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:30:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:30:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:30:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:31:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:31:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:31:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:32:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:32:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:32:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:33:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:33:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 17:33:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:34:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:34:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 17:34:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:35:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:35:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:35:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:36:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:36:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:36:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:37:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:37:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:37:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:38:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:38:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:38:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:39:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:39:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:39:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:40:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:40:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:40:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:41:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:41:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:41:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:42:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:42:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:42:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:43:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:43:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:43:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:44:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:44:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 17:44:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:45:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 13, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:45:11] GET /logs/admin -> 200 (13ms)
+127.0.0.1 - - [19/Aug/2025 17:45:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:45:50", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4782.146 Safari/537.36"}
+[2025-08-19 17:45:50] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 17:45:50] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 17:45:50", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3597.73 Safari/537.36"}
+[2025-08-19 17:45:50] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 17:45:50] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 17:45:50", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.3597.73 Safari/537.36"}
+[2025-08-19 17:45:50] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 17:45:50] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-19 17:46:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:46:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:46:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:47:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:47:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:47:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:48:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:48:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 17:48:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:49:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:49:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:49:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:50:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:50:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 17:50:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:51:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:51:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:51:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:52:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:52:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 17:52:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:53:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:53:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 17:53:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:54:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:54:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 17:54:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:55:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:55:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:55:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:56:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:56:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:56:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:57:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:57:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:57:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:58:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:58:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 17:58:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 17:59:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 17:59:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 17:59:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:00:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:00:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 18:00:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:01:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:01:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:01:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:02:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:02:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:02:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:03:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:03:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:03:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:04:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:04:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 18:04:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:05:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:05:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:05:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:06:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:06:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 18:06:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:07:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:07:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:07:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:08:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:08:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:08:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:09:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:09:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:09:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:10:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:10:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:10:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:11:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:11:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 18:11:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:12:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:12:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 18:12:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:13:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:13:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 18:13:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:14:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:14:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:14:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:15:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 14, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:15:11] GET /logs/admin -> 200 (14ms)
+127.0.0.1 - - [19/Aug/2025 18:15:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:16:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:16:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 18:16:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:17:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:17:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 18:17:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:18:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:18:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:18:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:19:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:19:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 18:19:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:20:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:20:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 18:20:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:21:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:21:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:21:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:22:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:22:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 18:22:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:23:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:23:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:23:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:24:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:24:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:24:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:25:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:25:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:25:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:26:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:26:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 18:26:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:27:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:27:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:27:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:28:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:28:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:28:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:29:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:29:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:29:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:30:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:30:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:30:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:31:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:31:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:31:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:32:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:32:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 18:32:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:33:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:33:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:33:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:34:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:34:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:34:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:35:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:35:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:35:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:36:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 13, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:36:11] GET /logs/admin -> 200 (13ms)
+127.0.0.1 - - [19/Aug/2025 18:36:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:37:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:37:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:37:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:38:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:38:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:38:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:39:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:39:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:39:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:40:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:40:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:40:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:41:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:41:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:41:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:42:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:42:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 18:42:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:43:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:43:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:43:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:44:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:44:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:44:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:45:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:45:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:45:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:46:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:46:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:46:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:47:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:47:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 18:47:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:48:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:48:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:48:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:49:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:49:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:49:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:50:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:50:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:50:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:51:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:51:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:51:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:52:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:52:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:52:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:53:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:53:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:53:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:54:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:54:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 18:54:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:54:58", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.8943.69 Safari/537.36"}
+[2025-08-19 18:54:58] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 18:54:58] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 18:54:58", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.6305.12 Safari/537.36"}
+[2025-08-19 18:54:58] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 18:54:58] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 18:54:58", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.6305.12 Safari/537.36"}
+[2025-08-19 18:54:58] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 18:54:58] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-19 18:55:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:55:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:55:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:56:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:56:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:56:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:57:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:57:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:57:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:58:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:58:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 18:58:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 18:59:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 18:59:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 18:59:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:00:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:00:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:00:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:01:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:01:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:01:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:02:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:02:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:02:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:03:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:03:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:03:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:04:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:04:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:04:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:05:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:05:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:05:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:06:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:06:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 19:06:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:07:08", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:07:08] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:07:08] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 19:07:08", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:07:08] GET /login.js -> 200 (1ms)
+127.0.0.1 - - [19/Aug/2025 19:07:08] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-08-19 19:07:08", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:07:08] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:07:08] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-19 19:07:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:07:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:07:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:07:22", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:07:22] POST /login -> 200 (1ms)
+127.0.0.1 - - [19/Aug/2025 19:07:22] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:07:24", "ip": "127.0.0.1", "method": "POST", "path": "/register", "status": 200, "duration_ms": 13, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:07:24] POST /register -> 200 (13ms)
+127.0.0.1 - - [19/Aug/2025 19:07:24] "POST /register HTTP/1.1" 200 -
+{"time": "2025-08-19 19:07:28", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:07:28] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:07:28] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:07:29", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:07:29] GET /index.html -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:07:29] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-08-19 19:08:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:08:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 19:08:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:08:26", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) UnifiedPCW"}
+[2025-08-19 19:08:26] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:08:26] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 19:08:26", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) UnifiedPCW"}
+[2025-08-19 19:08:26] GET /login.js -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:08:26] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-08-19 19:08:26", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) UnifiedPCW"}
+[2025-08-19 19:08:26] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:08:26] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-19 19:08:31", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) UnifiedPCW"}
+[2025-08-19 19:08:31] GET / -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:08:31] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:08:31", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) UnifiedPCW"}
+[2025-08-19 19:08:31] GET /login.js -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:08:31] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:08:32", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) UnifiedPCW"}
+[2025-08-19 19:08:32] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:08:32] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:09:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:09:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 19:09:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:10:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:10:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 19:10:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:11:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:11:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:11:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:11:53", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; Android 15; 24117RK2CC Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380117 MMWEBSDK/20250503 MMWEB"}
+[2025-08-19 19:11:53] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:11:53] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 19:11:59", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; Android 15; 24117RK2CC Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380117 MMWEBSDK/20250503 MMWEB"}
+[2025-08-19 19:11:59] GET / -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:11:59] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:11:59", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; Android 15; 24117RK2CC Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380117 MMWEBSDK/20250503 MMWEB"}
+[2025-08-19 19:11:59] GET /login.js -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:11:59] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:00", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; Android 15; 24117RK2CC Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.180 Mobile Safari/537.36 XWEB/1380117 MMWEBSDK/20250503 MMWEB"}
+[2025-08-19 19:12:00] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:12:00] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:12:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 19:12:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:16", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:12:16] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:12:16] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:17", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:12:17] GET /login.js -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:12:17] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:17", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:12:17] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:12:17] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:31", "ip": "127.0.0.1", "method": "POST", "path": "/register", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:12:31] POST /register -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:12:31] "POST /register HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:35", "ip": "127.0.0.1", "method": "POST", "path": "/register", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:12:35] POST /register -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:12:35] "POST /register HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:39", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:12:39] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:12:39] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:40", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:12:40] GET /index.html -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:12:40] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-08-19 19:12:41", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:12:41] GET /favicon.ico -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:12:41] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:13:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:13:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:13:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:14:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:14:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 19:14:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:15:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:15:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:15:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:15:33", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:15:33] GET / -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:15:33] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:15:33", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:15:33] GET /login.js -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:15:33] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:15:34", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:15:34] GET /favicon.ico -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:15:34] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:16:00", "ip": "127.0.0.1", "method": "POST", "path": "/register", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:16:00] POST /register -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:16:00] "POST /register HTTP/1.1" 200 -
+{"time": "2025-08-19 19:16:07", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:16:07] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:16:07] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:16:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:16:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:16:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:16:12", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:16:12] GET /index.html -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:16:12] "[36mGET /index.html HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:16:17", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:16:17] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:16:17] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:16:17", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:16:17] GET /favicon.ico -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:16:17] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:17:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:17:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:17:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:18:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:18:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:18:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:19:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:19:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:19:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:20:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:20:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 19:20:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:21:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:21:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:21:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:22:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:22:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 19:22:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:23:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:23:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:23:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:24:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:24:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 19:24:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:25:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:25:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 19:25:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:26:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:26:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:26:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:27:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:27:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:27:11] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-19 19:28:42", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:28:42] GET /logs/admin -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:28:42] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:28:44", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:28:44] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:28:44] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:28:50", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:28:50] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 19:28:50] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:28:55", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:28:55] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 19:28:55] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:28:56", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 78, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:28:56] GET / -> 304 (78ms)
+127.0.0.1 - - [19/Aug/2025 19:28:56] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:28:56", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:28:56] GET /login.js -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:28:56] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:29:00", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:00] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 19:29:00] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:02", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:29:02] POST /login -> 200 (1ms)
+127.0.0.1 - - [19/Aug/2025 19:29:02] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:05", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:05] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:29:05] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:10", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:10] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:29:10] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:15", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:15] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 19:29:15] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:20] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 19:29:20] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:25", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:25] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 19:29:25] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:30", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:30] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:29:30] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:35", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:35] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 19:29:35] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:40", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:40] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 19:29:40] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:29:45", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:29:45] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 19:29:45] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:30:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:30:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 19:30:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:31:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:31:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 19:31:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:32:05", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-08-19 19:32:05] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:32:05] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:32:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:32:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 19:32:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:33:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:33:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 19:33:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:34:09", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.62(0x18003e2d) NetType/WIFI Language/zh_CN"}
+[2025-08-19 19:34:09] GET / -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:34:09] "GET / HTTP/1.1" 200 -
+{"time": "2025-08-19 19:34:09", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.62(0x18003e2d) NetType/WIFI Language/zh_CN"}
+[2025-08-19 19:34:09] GET /login.js -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:34:09] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-08-19 19:34:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 13, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:34:11] GET /logs/admin -> 200 (13ms)
+127.0.0.1 - - [19/Aug/2025 19:34:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:34:21", "ip": "127.0.0.1", "method": "POST", "path": "/register", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.62(0x18003e2d) NetType/WIFI Language/zh_CN"}
+[2025-08-19 19:34:21] POST /register -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:34:21] "POST /register HTTP/1.1" 200 -
+{"time": "2025-08-19 19:34:29", "ip": "127.0.0.1", "method": "POST", "path": "/register", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.62(0x18003e2d) NetType/WIFI Language/zh_CN"}
+[2025-08-19 19:34:29] POST /register -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:34:29] "POST /register HTTP/1.1" 200 -
+{"time": "2025-08-19 19:34:31", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.62(0x18003e2d) NetType/WIFI Language/zh_CN"}
+[2025-08-19 19:34:31] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:34:31] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:34:32", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.62(0x18003e2d) NetType/WIFI Language/zh_CN"}
+[2025-08-19 19:34:32] GET /index.html -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:34:32] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-08-19 19:35:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 16, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:35:11] GET /logs/admin -> 200 (16ms)
+127.0.0.1 - - [19/Aug/2025 19:35:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:36:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:36:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:36:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:37:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:37:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:37:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:38:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:38:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:38:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:39:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 15, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:39:11] GET /logs/admin -> 200 (15ms)
+127.0.0.1 - - [19/Aug/2025 19:39:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:40:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 25, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:40:11] GET /logs/admin -> 200 (25ms)
+127.0.0.1 - - [19/Aug/2025 19:40:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:41:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:41:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 19:41:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:41:46", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:41:46] GET /favicon.ico -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:41:46] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 19:41:51", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:41:51] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:41:51] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:41:54", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Linux; U; Android 15; zh-cn; 24117RK2CC Build/AQ3A.240829.003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.119 Mobile Safari/537.36 XiaoMi/MiuiBrowser/20.1.40813"}
+[2025-08-19 19:41:54] POST /login -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 19:41:54] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-19 19:42:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:42:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 19:42:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:43:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:43:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:43:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:44:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:44:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:44:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:45:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:45:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:45:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:46:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:46:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 19:46:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:47:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:47:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:47:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:48:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:48:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:48:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:49:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:49:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:49:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:50:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:50:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:50:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:01", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:01] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 19:51:01] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:04", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:04] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:51:04] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:09", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:09] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:51:09] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:15", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:15] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 19:51:15] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:20] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:51:20] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:25", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:25] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:51:25] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:30", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:30] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:51:30] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:35", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:35] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:51:35] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:40", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:40] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:51:40] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:45", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:45] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:51:45] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:50", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:50] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:51:50] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:51:55", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:51:55] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:51:55] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:52:00", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:52:00] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:52:00] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:52:05", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:52:05] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:52:05] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:52:10", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:52:10] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:52:10] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:52:15", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:52:15] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 19:52:15] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:52:20", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:52:20] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:52:20] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:53:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:53:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:53:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:54:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:54:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 19:54:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:55:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:55:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 19:55:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:56:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:56:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:56:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:57:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:57:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:57:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:58:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:58:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:58:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 19:59:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 19:59:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 19:59:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:00:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:00:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:00:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:01:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:01:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 20:01:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:02:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:02:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 20:02:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:03:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:03:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:03:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:04:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:04:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:04:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:04:27", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.62(0x18003e2d) NetType/WIFI Language/zh_CN"}
+[2025-08-19 20:04:27] GET / -> 304 (0ms)
+127.0.0.1 - - [19/Aug/2025 20:04:27] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 20:05:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:05:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:05:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:06:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:06:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 20:06:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:07:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 16, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:07:11] GET /logs/admin -> 200 (16ms)
+127.0.0.1 - - [19/Aug/2025 20:07:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:08:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:08:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:08:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:09:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:09:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:09:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:10:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:10:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:10:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:11:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:11:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 20:11:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:12:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:12:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:12:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:13:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:13:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 20:13:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:14:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:14:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:14:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:15:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:15:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:15:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:16:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:16:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:16:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:17:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:17:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:17:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:18:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:18:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:18:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:19:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:19:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:19:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:20:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:20:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 20:20:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:21:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:21:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:21:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:22:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:22:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:22:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:23:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:23:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:23:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:24:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:24:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:24:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:25:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:25:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:25:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:26:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:26:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:26:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:27:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:27:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:27:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:28:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:28:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:28:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:29:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:29:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:29:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:30:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:30:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 20:30:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:31:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:31:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 20:31:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:32:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:32:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:32:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:33:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:33:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 20:33:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:34:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:34:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 20:34:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:35:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:35:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:35:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:36:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:36:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:36:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:37:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:37:11] GET /logs/admin -> 200 (8ms)
+127.0.0.1 - - [19/Aug/2025 20:37:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:38:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:38:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:38:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:39:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:39:11] GET /logs/admin -> 200 (12ms)
+127.0.0.1 - - [19/Aug/2025 20:39:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:40:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:40:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 20:40:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:41:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:41:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 20:41:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:42:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:42:11] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:42:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:43:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:43:11] GET /logs/admin -> 200 (11ms)
+127.0.0.1 - - [19/Aug/2025 20:43:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:44:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:44:11] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [19/Aug/2025 20:44:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:45:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:45:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:45:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:46:11", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:46:11] GET /logs/admin -> 200 (9ms)
+127.0.0.1 - - [19/Aug/2025 20:46:11] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:46:39", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:46:39] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:46:39] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:46:39", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:46:39] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 20:46:39] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:46:44", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:46:44] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 20:46:44] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:46:44", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:46:44] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 20:46:44] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:46:49", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:46:49] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 20:46:49] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:46:54", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:46:54] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [19/Aug/2025 20:46:54] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-19 20:47:05", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:05] GET /logs/admin -> 200 (0ms)
+127.0.0.1 - - [19/Aug/2025 20:47:05] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:47:09", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 304, "duration_ms": 82, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:09] GET /admin -> 304 (82ms)
+127.0.0.1 - - [19/Aug/2025 20:47:09] "[36mGET /admin HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 20:47:09", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:09] GET /light.css -> 404 (0ms)
+127.0.0.1 - - [19/Aug/2025 20:47:09] "[33mGET /light.css HTTP/1.1[0m" 404 -
+{"time": "2025-08-19 20:47:09", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:09] GET /theme.js -> 404 (0ms)
+127.0.0.1 - - [19/Aug/2025 20:47:09] "[33mGET /theme.js HTTP/1.1[0m" 404 -
+{"time": "2025-08-19 20:47:09", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:09] GET /admin.js -> 304 (1ms)
+127.0.0.1 - - [19/Aug/2025 20:47:09] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-19 20:47:09", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:09] GET /logs/admin -> 200 (10ms)
+127.0.0.1 - - [19/Aug/2025 20:47:09] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:47:09", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 16, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:09] GET /status -> 200 (16ms)
+127.0.0.1 - - [19/Aug/2025 20:47:09] "GET /status HTTP/1.1" 200 -
+{"time": "2025-08-19 20:47:14", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:14] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 20:47:14] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-19 20:47:19", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-19 20:47:19] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [19/Aug/2025 20:47:19] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-08-31 19:34:55", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 87, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:55] GET / -> 200 (87ms)
+127.0.0.1 - - [31/Aug/2025 19:34:55] "GET /?ide_webview_request_time=1756640094542 HTTP/1.1" 200 -
+{"time": "2025-08-31 19:34:55", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:55] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:34:55] "GET /light.css HTTP/1.1" 200 -
+{"time": "2025-08-31 19:34:55", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:55] GET /login.js -> 200 (0ms)
+{"time": "2025-08-31 19:34:55", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:55] GET /theme.js -> 200 (1ms)
+127.0.0.1 - - [31/Aug/2025 19:34:55] "GET /theme.js HTTP/1.1" 200 -
+127.0.0.1 - - [31/Aug/2025 19:34:55] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-08-31 19:34:55", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:55] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:34:55] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-08-31 19:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:57] GET / -> 200 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:34:57] "GET /?ide_webview_request_time=1756640097556 HTTP/1.1" 200 -
+{"time": "2025-08-31 19:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+{"time": "2025-08-31 19:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:57] GET /theme.js -> 200 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:34:57] "GET /theme.js HTTP/1.1" 200 -
+{"time": "2025-08-31 19:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:57] GET /light.css -> 200 (1ms)
+127.0.0.1 - - [31/Aug/2025 19:34:57] "GET /light.css HTTP/1.1" 200 -
+[2025-08-31 19:34:57] GET /login.js -> 200 (1ms)
+127.0.0.1 - - [31/Aug/2025 19:34:57] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-08-31 19:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:34:57] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:34:57] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-08-31 19:35:08", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:08] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:08] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:09", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:09] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:09] "GET /dark.css HTTP/1.1" 200 -
+{"time": "2025-08-31 19:35:12", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:12] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:12] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:58", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:58] GET / -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:58] "[36mGET /?ide_webview_request_time=1756640094542 HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:58", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:58] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:58] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:58", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+{"time": "2025-08-31 19:35:58", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:58] GET /login.js -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:58] "[36mGET /login.js HTTP/1.1[0m" 304 -
+[2025-08-31 19:35:58] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [31/Aug/2025 19:35:58] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:58", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:58] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:58] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-08-31 19:35:59", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:59] GET / -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:59] "[36mGET /?ide_webview_request_time=1756640097556 HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:59", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:59] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:59] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:59", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:59] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:59] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:59", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:59] GET /login.js -> 304 (1ms)
+127.0.0.1 - - [31/Aug/2025 19:35:59] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:35:59", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:35:59] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:35:59] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-08-31 19:36:01", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:01] GET / -> 304 (1ms)
+127.0.0.1 - - [31/Aug/2025 19:36:01] "[36mGET /?ide_webview_request_time=1756640094542 HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:02", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:02] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:02] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:02", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:02] GET /login.js -> 304 (0ms)
+{"time": "2025-08-31 19:36:02", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+127.0.0.1 - - [31/Aug/2025 19:36:02] "[36mGET /login.js HTTP/1.1[0m" 304 -
+[2025-08-31 19:36:02] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [31/Aug/2025 19:36:02] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:02", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:02] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:02] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-08-31 19:36:11", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:11] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:11] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:11", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:11] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:11] "GET /dark.css HTTP/1.1" 200 -
+{"time": "2025-08-31 19:36:13", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:13] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:13] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:26", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 29, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:26] POST /login -> 200 (29ms)
+127.0.0.1 - - [31/Aug/2025 19:36:27] "POST /login HTTP/1.1" 200 -
+{"time": "2025-08-31 19:36:27", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:27] GET /index.html -> 200 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:27] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-08-31 19:36:27", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:27] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:27] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:27", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:27] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:27] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:27", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:27] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:27] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-08-31 19:36:37", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:37] GET /admin -> 200 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:37] "GET /admin HTTP/1.1" 200 -
+{"time": "2025-08-31 19:36:37", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:37] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:37] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:37", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:37] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [31/Aug/2025 19:36:37] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-08-31 19:36:37", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:37] GET /admin.js -> 200 (1ms)
+127.0.0.1 - - [31/Aug/2025 19:36:37] "GET /admin.js HTTP/1.1" 200 -
+{"time": "2025-08-31 19:36:37", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 26, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:37] GET /status -> 200 (26ms)
+127.0.0.1 - - [31/Aug/2025 19:36:37] "GET /status HTTP/1.1" 200 -
+{"time": "2025-08-31 19:36:38", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:38] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [31/Aug/2025 19:36:38] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-31 19:36:38", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 111, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:38] GET /@vite/client -> 404 (111ms)
+127.0.0.1 - - [31/Aug/2025 19:36:38] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-08-31 19:36:43", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 5, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:43] GET /logs/admin -> 200 (5ms)
+127.0.0.1 - - [31/Aug/2025 19:36:43] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-08-31 19:36:47", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-08-31 19:36:47] GET /logs/admin -> 200 (7ms)
+127.0.0.1 - - [31/Aug/2025 19:36:47] "GET /logs/admin HTTP/1.1" 200 -

@@ -15,7 +15,8 @@ START_TIME = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
 # 从环境变量里读取数据库配置
 db = mysql.connector.connect(
-    host=os.getenv("DB_HOST", "localhost"),
+    host=os.getenv("DB_HOST", "127.0.0.1"),
+    port=int(os.getenv("DB_PORT", "3307")),
     user=os.getenv("DB_USER", "root"),
     password=os.getenv("DB_PASSWORD", ""),                      #getenv的意思就是取系统环境变量，在高级系统设置里面改就行，这样安全一点
     database=os.getenv("DB_NAME", "mysite")
@@ -68,7 +69,7 @@ def log_request(resp):
 
 @app.route("/")
 def get_index():
-    return send_from_directory(SITE_DIR, "index.html")
+    return send_from_directory(SITE_DIR, "login.html")
 
 @app.route("/logs/admin")
 def get_admin_logs():
@@ -135,29 +136,5 @@ def login():
     else:
         return jsonify({"success": False, "message": "账号或密码错误"})
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8000, debug=False)
-    

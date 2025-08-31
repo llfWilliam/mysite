@@ -3,20 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>登录注册页面</title>
+    <link id="theme-link" rel="stylesheet" href="light.css">
+    <style>
+        .login-container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .button-group {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h2>用户登录/注册</h2>
+    <div class="top-buttons">
+        <button onclick="setTheme('light.css')">白天模式</button>
+        <button onclick="setTheme('dark.css')">黑夜模式</button>
+    </div>
+    <script src="theme.js"></script>
     
-    <!-- 账号输入框 -->
-    <label for="username">账号：</label>
-    <input type="text" id="username" name="username"><br><br>
+    <div class="login-container">
+        <h1>用户登录/注册</h1>
+        
+        <div class="form-group">
+            <label for="username">账号：</label>
+            <input type="text" id="username" name="username" placeholder="请输入账号">
+        </div>
+        
+        <div class="form-group">
+            <label for="password">密码：</label>
+            <input type="password" id="password" name="password" placeholder="请输入密码">
+        </div>
+        
+        <div class="button-group">
+            <button id="login-btn">登录</button>
+            <button id="register-btn">注册</button>
+        </div>
+    </div>
     
-    <!-- 密码输入框 -->
-    <label for="password">密码：</label>
-    <input type="password" id="password" name="password"><br><br>
-    
-    <!-- 登录和注册按钮 -->
-    <button id="login-btn">登录</button>
-    <button id="register-btn">注册</button>
+    <script src="login.js"></script>
 </body>
 </html>
