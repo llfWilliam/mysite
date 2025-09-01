@@ -1,7 +1,7 @@
 from flask import Blueprint, jsonify, request
 import os
 import time
-from config import ADMIN_LOG, DEBUG_LOG, START_TIME
+from config import ADMIN_LOG, DEBUG_LOG, START_TIME, VERSION_INFO
 
 # 创建日志蓝图
 logs_bp = Blueprint('logs', __name__)
@@ -44,6 +44,9 @@ def get_status():
         "server": "mysite",
         "status": "running",
         "start_time": START_TIME,
-        "uptime_seconds": int(time.time() - time.mktime(time.strptime(START_TIME, "%Y-%m-%d %H:%M:%S")))
+        "uptime_seconds": int(time.time() - time.mktime(time.strptime(START_TIME, "%Y-%m-%d %H:%M:%S"))),
+        "version": VERSION_INFO['version'],
+        "build_date": VERSION_INFO['build_date'],
+        "description": VERSION_INFO['description']
     }
     return jsonify(status_info)

@@ -1,7 +1,7 @@
 from flask import Flask, send_from_directory, request, g
 import time
 import json
-from config import SITE_DIR, audit_logger, admin_logger
+from config import SITE_DIR, audit_logger, admin_logger, VERSION, print_version
 from auth import auth_bp
 from admin import admin_bp
 from logs import logs_bp
@@ -39,4 +39,7 @@ def get_index():
     return send_from_directory(SITE_DIR, "login.html")
 
 if __name__ == "__main__":
+    # 打印版本信息
+    print_version()
+    print(f"启动 MySite v{VERSION}...")
     app.run(host="127.0.0.1", port=8000, debug=False)

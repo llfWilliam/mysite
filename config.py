@@ -2,6 +2,7 @@ import os
 import time
 import logging
 import mysql.connector
+from version import get_version, get_full_version_info, print_version
 
 # 文件路径配置
 BASE_DIR = os.path.dirname(__file__)
@@ -53,3 +54,7 @@ def setup_logging():
 
 # 初始化日志记录器
 audit_logger, admin_logger = setup_logging()
+
+# 版本信息
+VERSION = get_version()
+VERSION_INFO = get_full_version_info()
