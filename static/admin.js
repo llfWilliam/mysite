@@ -138,5 +138,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadStatus();
   loadLogs();
   loadUsers();
-  setInterval(loadLogs, 5000);
+  // 移除自动刷新逻辑，只保留手动刷新
 });
