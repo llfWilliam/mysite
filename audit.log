@@ -5502,3 +5502,168 @@ NameError: name 'admin' is not defined
 {"time": "2025-09-01 16:19:36", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
 [2025-09-01 16:19:36] GET /logs/admin -> 200 (6ms)
 127.0.0.1 - - [01/Sep/2025 16:19:36] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-01 16:44:19", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 90, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:19] GET / -> 200 (90ms)
+127.0.0.1 - - [01/Sep/2025 16:44:19] "GET /?ide_webview_request_time=1756716258802 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:44:19", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:19] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:19] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:44:19", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:19] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:19] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:44:19", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:19] GET /login.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:19] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:44:19", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:19] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:19] "GET /dark.css?v=1756716259617 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:44:19", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:19] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:19] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-09-01 16:44:36", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:36] GET / -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:36] "GET /?ide_webview_request_time=1756716276973 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:44:37", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:37] GET /light.css -> 304 (0ms)
+{"time": "2025-09-01 16:44:37", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+127.0.0.1 - - [01/Sep/2025 16:44:37] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:44:37", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:37] GET /theme.js -> 304 (1ms)
+[2025-09-01 16:44:37] GET /login.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:37] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [01/Sep/2025 16:44:37] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:44:37", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:37] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:37] "GET /dark.css?v=1756716277087 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:44:37", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:37] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:37] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-09-01 16:44:54", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:54] POST /login -> 200 (1ms)
+127.0.0.1 - - [01/Sep/2025 16:44:54] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-01 16:44:54", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:54] GET /index.html -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:54] "[36mGET /index.html HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:44:54", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:54] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:54] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:44:54", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:54] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:54] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:44:54", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:54] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:54] "GET /dark.css?v=1756716294305 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:44:55", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:55] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:55] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-09-01 16:44:58", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:58] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:58] "GET /dark.css?v=1756716298638 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:44:59", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:44:59] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:44:59] "GET /light.css?v=1756716299318 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:00", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:00] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:00] "GET /dark.css?v=1756716300982 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:06", "ip": "127.0.0.1", "method": "GET", "path": "/admin.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:06] GET /admin.html -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:06] "GET /admin.html?ide_webview_request_time=1756716306390 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:06", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+{"time": "2025-09-01 16:45:06", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:06] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:06] "[36mGET /light.css HTTP/1.1[0m" 304 -
+[2025-09-01 16:45:06] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:06] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:45:06", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:06] GET /admin.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:06] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:45:07", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:07] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:07] "GET /dark.css?v=1756716306942 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:07", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 403, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+{"time": "2025-09-01 16:45:07", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 403, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:07] GET /logs/admin -> 403 (0ms)
+[2025-09-01 16:45:07] GET /status -> 403 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:07] "[31m[1mGET /logs/admin HTTP/1.1[0m" 403 -
+127.0.0.1 - - [01/Sep/2025 16:45:07] "[31m[1mGET /status HTTP/1.1[0m" 403 -
+{"time": "2025-09-01 16:45:07", "ip": "127.0.0.1", "method": "GET", "path": "/admin/list", "status": 403, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:07] GET /admin/list -> 403 (0ms)
+{"time": "2025-09-01 16:45:07", "ip": "127.0.0.1", "method": "GET", "path": "/@vite/client", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+127.0.0.1 - - [01/Sep/2025 16:45:07] "[31m[1mGET /admin/list HTTP/1.1[0m" 403 -
+[2025-09-01 16:45:07] GET /@vite/client -> 404 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:07] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+{"time": "2025-09-01 16:45:11", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:11] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:11] "GET /light.css?v=1756716311279 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:12", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.100.3 Chrome/132.0.6834.210 Electron/34.5.1 Safari/537.36"}
+[2025-09-01 16:45:12] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:12] "GET /dark.css?v=1756716311950 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:41", "ip": "127.0.0.1", "method": "GET", "path": "/news.html", "status": 404, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:41] GET /news.html -> 404 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:41] "[33mGET /news.html HTTP/1.1[0m" 404 -
+{"time": "2025-09-01 16:45:41", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:41] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:41] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:44", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:44] GET / -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:44] "GET / HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:44", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:44] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:44] "GET /light.css HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:44", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:44] GET /theme.js -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:44] "GET /theme.js HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:44", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:44] GET /login.js -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:44] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:45", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:45] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:45] "GET /dark.css?v=1756716344963 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:46", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:46] POST /login -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:46] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:47", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:47] GET /index.html -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:47] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:47", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:47] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [01/Sep/2025 16:45:47] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:45:47", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:47] GET /light.css -> 200 (1ms)
+127.0.0.1 - - [01/Sep/2025 16:45:47] "GET /light.css HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:48", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:48] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:48] "GET /dark.css?v=1756716347968 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:45:55", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:45:55] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:45:55] "GET /dark.css?v=1756716355525 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:46:00", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:00] GET /admin -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:46:00] "[36mGET /admin HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:46:00", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:00] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:46:00] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:46:00", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:00] GET /admin.js -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:46:00] "GET /admin.js HTTP/1.1" 200 -
+{"time": "2025-09-01 16:46:00", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:00] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:46:00] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 16:46:00", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:00] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:46:00] "GET /dark.css?v=1756716360452 HTTP/1.1" 200 -
+{"time": "2025-09-01 16:46:00", "ip": "127.0.0.1", "method": "GET", "path": "/admin/list", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:00] GET /admin/list -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 16:46:00] "GET /admin/list HTTP/1.1" 200 -
+{"time": "2025-09-01 16:46:00", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 10, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:00] GET /status -> 200 (10ms)
+127.0.0.1 - - [01/Sep/2025 16:46:00] "GET /status HTTP/1.1" 200 -
+{"time": "2025-09-01 16:46:00", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:00] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [01/Sep/2025 16:46:00] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-09-01 16:46:05", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 16:46:05] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [01/Sep/2025 16:46:05] "GET /logs/admin HTTP/1.1" 200 -
