@@ -3,10 +3,19 @@
 // 保存用户主题选择到本地存储
 function setTheme(themeName) {
     // 更新样式表链接
-    document.getElementById('theme-link').href = themeName;
+    document.getElementById('theme-link').href = themeName + '?v=' + new Date().getTime();
     
     // 保存用户选择到本地存储
     localStorage.setItem('theme', themeName);
+}
+
+// 清除缓存并重新加载页面
+function clearCache() {
+    // 清除本地存储
+    localStorage.clear();
+    
+    // 强制刷新页面，绕过缓存
+    location.reload(true);
 }
 
 // 页面加载时检查并应用保存的主题
@@ -16,6 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // 如果有保存的主题，则应用它
     if (savedTheme) {
-        document.getElementById('theme-link').href = savedTheme;
+        document.getElementById('theme-link').href = savedTheme + '?v=' + new Date().getTime();
     }
 });

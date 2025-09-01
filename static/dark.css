@@ -43,12 +43,12 @@ button:hover {
 }
 
 #logs {
-    background-color: #2c2c2c;
-    color: #f0f0f0;
+    background-color: #2c2c2c !important;
+    color: #f0f0f0 !important;
     padding: 15px;
     border-radius: 5px;
     border: 1px solid #444;
-    height: 400px;
+    max-height: 400px;
     overflow-y: auto;
     font-family: monospace;
     white-space: pre-wrap;
@@ -74,4 +74,35 @@ button:hover {
     color: #3498db;
     min-width: 80px;
     display: inline-block;
+}
+
+/* 用户管理和区块样式 */
+.section {
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+#users-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#users-list th, #users-list td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+#users-list th {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+input[type="text"] {
+    background-color: #333;
+    color: #f0f0f0;
+    border: 1px solid #444;
+    padding: 8px;
+    border-radius: 4px;
 }

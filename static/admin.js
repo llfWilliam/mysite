@@ -62,7 +62,7 @@ async function loadUsers() {
     
     if (data.success && Array.isArray(data.users)) {
       // 创建表格显示用户列表
-      let html = '<table border="1" style="width:100%; border-collapse: collapse;">';
+      let html = '<table>';
       html += '<tr><th>用户名</th><th>管理员状态</th></tr>';
       
       data.users.forEach(user => {
