@@ -18,6 +18,48 @@
 			text-align: right;
 			margin: 10px 20px;
 		}
+		/* 区块样式 */
+		.section {
+			margin: 20px;
+			padding: 15px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		/* 用户管理样式 */
+		.user-controls {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 15px;
+		}
+		.grant-admin {
+			display: flex;
+			gap: 10px;
+		}
+		#users-list table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		#users-list th, #users-list td {
+			padding: 8px;
+			text-align: left;
+			border: 1px solid #ddd;
+		}
+		#users-list th {
+			background-color: #f2f2f2;
+		}
+		/* 日志样式 */
+		.log-controls {
+			margin-bottom: 10px;
+		}
+		#logs {
+			max-height: 400px;
+			overflow-y: auto;
+			white-space: pre-wrap;
+			background-color: #f5f5f5;
+			padding: 10px;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+		}
 	</style>
 </head>
 <body>
@@ -31,11 +73,32 @@
 	
 	
 	<div id="status">加载状态中...</div>	<!--创造了一个status容器用来存放服务器状态-->
-	<div class="log-controls">
-		<h2><span id="log-type-indicator">管理日志</span> <button onclick="switchLogType('admin')">管理日志</button> <button onclick="switchLogType('debug')">调试日志</button></h2>
-		<button onclick="loadLogs()">刷新日志</button>
+	
+	<!-- 用户管理部分 -->
+	<div class="section">
+		<h2>用户管理</h2>
+		<div class="user-controls">
+			<button onclick="loadUsers()">刷新用户列表</button>
+			<div class="grant-admin">
+				<input type="text" id="username-input" placeholder="输入用户名">
+				<button onclick="grantAdmin()">授予管理员权限</button>
+				<button onclick="revokeAdmin()">撤销管理员权限</button>
+			</div>
+		</div>
+		<div id="users-list">加载用户列表中...</div>
 	</div>
-	<div id="logs">加载日志中...</div>		<!--创造了一个容器存放日志内容-->
+	
+	<!-- 日志部分 -->
+	<div class="section">
+		<h2>系统日志</h2>
+		<div class="log-controls">
+			<span id="log-type-indicator">管理日志</span> 
+			<button onclick="switchLogType('admin')">管理日志</button> 
+			<button onclick="switchLogType('debug')">调试日志</button>
+			<button onclick="loadLogs()">刷新日志</button>
+		</div>
+		<div id="logs">加载日志中...</div>		<!--创造了一个容器存放日志内容-->
+	</div>
 	<script src="admin.js"></script>
 	
 	

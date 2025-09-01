@@ -53,8 +53,90 @@ function switchLogType(type) {
   loadLogs();
 }
 
+// 用户管理功能
+async function loadUsers() {
+  try {
+    const res = await fetch("/admin/list");
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    
+    if (data.success && Array.isArray(data.users)) {
+      // 创建表格显示用户列表
+      let html = '<table border="1" style="width:100%; border-collapse: collapse;">';
+      html += '<tr><th>用户名</th><th>管理员状态</th></tr>';
+      
+      data.users.forEach(user => {
+        const isAdmin = user.is_admin === 1 || user.is_admin === true;
+        html += `<tr>
+          <td>${user.username}</td>
+          <td>${isAdmin ? '✅ 是' : '❌ 否'}</td>
+        </tr>`;
+      });
+      
+      html += '</table>';
+      q("users-list").innerHTML = html;
+    } else {
+      q("users-list").innerText = "获取用户列表失败: " + (data.message || "未知错误");
+    }
+  } catch (err) {
+    console.error("loadUsers error:", err);
+    q("users-list").innerText = "❌ 无法获取用户列表：" + err.message;
+  }
+}
+
+async function grantAdmin() {
+  const username = q("username-input").value.trim();
+  if (!username) {
+    alert("请输入用户名");
+    return;
+  }
+  
+  try {
+    const res = await fetch("/admin/grant", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ username })
+    });
+    
+    const data = await res.json();
+    alert(data.message || "操作完成");
+    if (data.success) {
+      loadUsers(); // 刷新用户列表
+    }
+  } catch (err) {
+    console.error("grantAdmin error:", err);
+    alert("授予管理员权限失败: " + err.message);
+  }
+}
+
+async function revokeAdmin() {
+  const username = q("username-input").value.trim();
+  if (!username) {
+    alert("请输入用户名");
+    return;
+  }
+  
+  try {
+    const res = await fetch("/admin/revoke", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ username })
+    });
+    
+    const data = await res.json();
+    alert(data.message || "操作完成");
+    if (data.success) {
+      loadUsers(); // 刷新用户列表
+    }
+  } catch (err) {
+    console.error("revokeAdmin error:", err);
+    alert("撤销管理员权限失败: " + err.message);
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadStatus();
   loadLogs();
+  loadUsers();
   setInterval(loadLogs, 5000);
 });

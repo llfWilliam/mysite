@@ -74,6 +74,10 @@ def get_index():
 @app.route("/logs/admin")
 def get_admin_logs():
     """返回管理端日志（简短）"""
+    # 检查是否有管理员权限
+    if request.cookies.get('admin_auth') != 'true':
+        return jsonify({"error": "无权限访问管理日志"}), 403
+        
     if os.path.exists(ADMIN_LOG):
         with open(ADMIN_LOG, encoding="utf-8") as f:
             lines = f.read().splitlines()                      
@@ -84,6 +88,10 @@ def get_admin_logs():
 @app.route("/logs/debug")
 def get_debug_logs():
     """返回完整调试日志（JSON格式字符串数组）"""
+    # 检查是否有管理员权限
+    if request.cookies.get('admin_auth') != 'true':
+        return jsonify({"error": "无权限访问调试日志"}), 403
+        
     if os.path.exists(DEBUG_LOG):
         with open(DEBUG_LOG, encoding="utf-8") as f:
             lines = f.read().splitlines()
@@ -92,11 +100,18 @@ def get_debug_logs():
 
 @app.route("/admin")
 def admin_index():
+    # 检查是否有管理员权限
+    if request.cookies.get('admin_auth') != 'true':
+        return jsonify({"error": "无权限访问管理页面"}), 403
     return send_from_directory(SITE_DIR, "admin.html")
 
 @app.route("/status")
 def get_status():
     """返回服务器状态信息"""
+    # 检查是否有管理员权限
+    if request.cookies.get('admin_auth') != 'true':
+        return jsonify({"error": "无权限访问服务器状态"}), 403
+        
     status_info = {
         "server": "mysite",
         "status": "running",
@@ -132,9 +147,86 @@ def login():
     cursor.execute("SELECT * FROM users WHERE username = %s AND password = %s", (username, password))
     user = cursor.fetchone()
     if user:                                #如果有结果被取出
-        return jsonify({"success": True, "message": "登录成功"})
+        response = jsonify({"success": True, "message": "登录成功", "is_admin": user.get("is_admin", 0) == 1})
+        
+        # 检查是否是管理员用户
+        is_admin = user.get("is_admin", 0) == 1
+        if is_admin:
+            response.set_cookie('admin_auth', 'true', httponly=True, secure=True)
+            
+        return response
     else:
         return jsonify({"success": False, "message": "账号或密码错误"})
+
+@app.route("/admin/grant", methods=["POST"])
+def grant_admin():
+    """授予管理员权限接口"""
+    # 检查当前用户是否有管理员权限
+    if request.cookies.get('admin_auth') != 'true':
+        return jsonify({"error": "无权限执行此操作"}), 403
+        
+    data = request.json
+    username = data.get("username")
+    
+    if not username:
+        return jsonify({"success": False, "message": "用户名不能为空"})
+    
+    # 检查用户是否存在
+    cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
+    user = cursor.fetchone()
+    if not user:
+        return jsonify({"success": False, "message": "用户不存在"})
+    
+    # 更新用户为管理员
+    try:
+        cursor.execute("UPDATE users SET is_admin = 1 WHERE username = %s", (username,))
+        db.commit()
+        return jsonify({"success": True, "message": f"已成功将 {username} 设置为管理员"})
+    except Exception as e:
+        db.rollback()
+        return jsonify({"success": False, "message": f"设置管理员失败: {str(e)}"})
+
+@app.route("/admin/revoke", methods=["POST"])
+def revoke_admin():
+    """撤销管理员权限接口"""
+    # 检查当前用户是否有管理员权限
+    if request.cookies.get('admin_auth') != 'true':
+        return jsonify({"error": "无权限执行此操作"}), 403
+        
+    data = request.json
+    username = data.get("username")
+    
+    if not username:
+        return jsonify({"success": False, "message": "用户名不能为空"})
+    
+    # 检查用户是否存在
+    cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
+    user = cursor.fetchone()
+    if not user:
+        return jsonify({"success": False, "message": "用户不存在"})
+    
+    # 撤销用户的管理员权限
+    try:
+        cursor.execute("UPDATE users SET is_admin = 0 WHERE username = %s", (username,))
+        db.commit()
+        return jsonify({"success": True, "message": f"已成功撤销 {username} 的管理员权限"})
+    except Exception as e:
+        db.rollback()
+        return jsonify({"success": False, "message": f"撤销管理员权限失败: {str(e)}"})
+
+@app.route("/admin/list", methods=["GET"])
+def list_users():
+    """列出所有用户及其管理员状态"""
+    # 检查当前用户是否有管理员权限
+    if request.cookies.get('admin_auth') != 'true':
+        return jsonify({"error": "无权限执行此操作"}), 403
+    
+    try:
+        cursor.execute("SELECT username, is_admin FROM users")
+        users = cursor.fetchall()
+        return jsonify({"success": True, "users": users})
+    except Exception as e:
+        return jsonify({"success": False, "message": f"获取用户列表失败: {str(e)}"})
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8000, debug=False)
