@@ -19,6 +19,21 @@ mysql-connector-python>=8.0.0
 # 可选：如果需要更好的日志格式化
 # colorlog>=6.0.0
 
+# 个人空间系统新增依赖
+# 文件上传和处理
+Pillow>=10.0.0          # 图片处理
+python-magic>=0.4.27    # 文件类型检测
+
+# 搜索功能
+whoosh>=2.7.4           # 全文搜索引擎
+
+# 内容编辑
+markdown>=3.5.0          # Markdown支持
+bleach>=6.0.0            # HTML清理
+
+# 数学公式支持
+# KaTeX>=0.16.0          # 数学公式渲染
+
 # 开发依赖（可选）
 # pytest>=7.0.0
 # black>=23.0.0
