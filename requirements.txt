@@ -1,0 +1,25 @@
+# MySite 项目依赖包
+# 基于Flask的用户管理系统
+
+# Web框架
+Flask>=3.0.0
+
+# 数据库连接
+mysql-connector-python>=8.0.0
+
+# 可选：如果需要更好的MySQL支持
+# PyMySQL>=1.0.0
+
+# 可选：如果需要ORM支持
+# SQLAlchemy>=2.0.0
+
+# 可选：如果需要环境变量管理
+# python-dotenv>=1.0.0
+
+# 可选：如果需要更好的日志格式化
+# colorlog>=6.0.0
+
+# 开发依赖（可选）
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0

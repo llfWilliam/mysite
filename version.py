@@ -51,3 +51,15 @@ def print_version():
     print(f"MySite v{__version__}")
     print(f"构建日期: {__build_date__}")
     print(f"描述: {__description__}")
+
+def get_flask_version():
+    """获取Flask版本信息（兼容新版本）"""
+    try:
+        import importlib.metadata
+        return importlib.metadata.version("flask")
+    except ImportError:
+        try:
+            import flask
+            return getattr(flask, '__version__', 'unknown')
+        except ImportError:
+            return 'not installed'

@@ -5745,3 +5745,99 @@ NameError: name 'admin' is not defined
 {"time": "2025-09-01 17:22:09", "ip": "127.0.0.1", "method": "GET", "path": "/admin/list", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
 [2025-09-01 17:22:09] GET /admin/list -> 200 (0ms)
 127.0.0.1 - - [01/Sep/2025 17:22:09] "GET /admin/list HTTP/1.1" 200 -
+{"time": "2025-09-01 17:23:26", "ip": "127.0.0.1", "method": "GET", "path": "/admin", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 17:23:26] GET /admin -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 17:23:26] "GET /admin HTTP/1.1" 200 -
+{"time": "2025-09-01 17:23:26", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 17:23:26] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 17:23:26] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 17:23:26", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 17:23:26] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 17:23:26] "GET /light.css HTTP/1.1" 200 -
+{"time": "2025-09-01 17:23:26", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 17:23:26] GET /admin.js -> 304 (0ms)
+127.0.0.1 - - [01/Sep/2025 17:23:26] "[36mGET /admin.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-01 17:23:26", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 17:23:26] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 17:23:26] "GET /dark.css?v=1756718606613 HTTP/1.1" 200 -
+{"time": "2025-09-01 17:23:26", "ip": "127.0.0.1", "method": "GET", "path": "/admin/list", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 17:23:26] GET /admin/list -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 17:23:26] "GET /admin/list HTTP/1.1" 200 -
+{"time": "2025-09-01 17:23:26", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 17:23:26] GET /status -> 200 (0ms)
+127.0.0.1 - - [01/Sep/2025 17:23:26] "GET /status HTTP/1.1" 200 -
+{"time": "2025-09-01 17:23:26", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-01 17:23:26] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [01/Sep/2025 17:23:26] "GET /logs/admin HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-03 06:42:52", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 129, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:42:52] GET / -> 200 (129ms)
+127.0.0.1 - - [03/Sep/2025 06:42:52] "GET / HTTP/1.1" 200 -
+{"time": "2025-09-03 06:42:53", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:42:53] GET /light.css -> 200 (1ms)
+127.0.0.1 - - [03/Sep/2025 06:42:53] "GET /light.css HTTP/1.1" 200 -
+{"time": "2025-09-03 06:42:53", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:42:53] GET /theme.js -> 200 (1ms)
+{"time": "2025-09-03 06:42:53", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [03/Sep/2025 06:42:53] "GET /theme.js HTTP/1.1" 200 -
+[2025-09-03 06:42:53] GET /login.js -> 200 (1ms)
+127.0.0.1 - - [03/Sep/2025 06:42:53] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-09-03 06:42:53", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:42:53] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:42:53] "GET /dark.css?v=1756852973048 HTTP/1.1" 200 -
+{"time": "2025-09-03 06:42:53", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:42:53] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:42:53] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-09-03 06:42:56", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:42:56] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:42:56] "GET /dark.css?v=1756852976168 HTTP/1.1" 200 -
+{"time": "2025-09-03 06:42:56", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:42:56] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:42:56] "GET /light.css?v=1756852976600 HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:05", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 198, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:05] POST /login -> 200 (198ms)
+127.0.0.1 - - [03/Sep/2025 06:43:05] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:06", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:06] GET /index.html -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:43:06] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:06", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:06] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [03/Sep/2025 06:43:06] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-03 06:43:06", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:06] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [03/Sep/2025 06:43:06] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-03 06:43:06", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:06] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:43:06] "GET /light.css?v=1756852986922 HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:16", "ip": "127.0.0.1", "method": "GET", "path": "/admin.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:16] GET /admin.html -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:43:16] "GET /admin.html HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:16", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:16] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [03/Sep/2025 06:43:16] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-03 06:43:16", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:16] GET /theme.js -> 304 (2ms)
+127.0.0.1 - - [03/Sep/2025 06:43:16] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-03 06:43:16", "ip": "127.0.0.1", "method": "GET", "path": "/admin.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:16] GET /admin.js -> 200 (1ms)
+127.0.0.1 - - [03/Sep/2025 06:43:16] "GET /admin.js HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:16", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:16] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:43:16] "GET /light.css?v=1756852996867 HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:16", "ip": "127.0.0.1", "method": "GET", "path": "/admin/list", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:16] GET /admin/list -> 200 (2ms)
+127.0.0.1 - - [03/Sep/2025 06:43:16] "GET /admin/list HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:16", "ip": "127.0.0.1", "method": "GET", "path": "/logs/admin", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:16] GET /logs/admin -> 200 (6ms)
+127.0.0.1 - - [03/Sep/2025 06:43:16] "GET /logs/admin HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:16", "ip": "127.0.0.1", "method": "GET", "path": "/status", "status": 200, "duration_ms": 27, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:16] GET /status -> 200 (27ms)
+127.0.0.1 - - [03/Sep/2025 06:43:16] "GET /status HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:25", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:25] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:43:25] "GET /light.css?v=1756853005185 HTTP/1.1" 200 -
+{"time": "2025-09-03 06:43:26", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-03 06:43:26] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [03/Sep/2025 06:43:26] "GET /dark.css?v=1756853006120 HTTP/1.1" 200 -

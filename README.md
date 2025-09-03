@@ -38,6 +38,7 @@ mysite/
 ├── routes.py          # 主路由文件
 ├── server.py          # 服务器启动文件
 ├── create_admin.py    # 创建管理员用户脚本
+├── requirements.txt   # Python依赖包列表
 ├── static/            # 静态文件目录
 │   ├── login.html     # 登录页面
 │   ├── admin.html     # 管理员页面
@@ -67,6 +68,13 @@ cd mysite
 ```
 
 ### 2. 安装依赖
+
+**方法一：使用requirements.txt（推荐）**
+```bash
+pip install -r requirements.txt
+```
+
+**方法二：手动安装**
 ```bash
 pip install flask mysql-connector-python
 ```
