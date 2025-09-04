@@ -12,7 +12,7 @@ def ask_port(default=8000) -> int:
 if __name__ == "__main__":                              
     #这个函数意思是，只有在这个文件被主动拉起来才会用，单单import的话是不会执行的
     host = os.getenv("HOST", "127.0.0.1")
-    port = int(os.getenv("PORT", str(ask_port())))      
+    port = int(os.getenv("PORT", "8000"))      
     #如果环境变量没设置，就 fallback 用默认 127.0.0.1
     show_welcome(port)
     app.run(host=host, port=port, debug=False)

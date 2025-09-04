@@ -5841,3 +5841,1428 @@ NameError: name 'admin' is not defined
 {"time": "2025-09-03 06:43:26", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
 [2025-09-03 06:43:26] GET /dark.css -> 200 (0ms)
 127.0.0.1 - - [03/Sep/2025 06:43:26] "GET /dark.css?v=1756853006120 HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 12:34:17", "ip": "127.0.0.1", "method": "GET", "path": "/academic", "status": 308, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:17] GET /academic -> 308 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:34:17] "[32mGET /academic HTTP/1.1[0m" 308 -
+{"time": "2025-09-04 12:34:17", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 302, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:17] GET /academic/ -> 302 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:17] "[32mGET /academic/ HTTP/1.1[0m" 302 -
+{"time": "2025-09-04 12:34:17", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 159, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:17] GET / -> 304 (159ms)
+127.0.0.1 - - [04/Sep/2025 12:34:17] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:17", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:17] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:34:17] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:17", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 12:34:17", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:17] GET /light.css -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 12:34:17] "[36mGET /light.css HTTP/1.1[0m" 304 -
+[2025-09-04 12:34:17] GET /login.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 12:34:17] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:17", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:17] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:17] "GET /dark.css?v=1756960457642 HTTP/1.1" 200 -
+{"time": "2025-09-04 12:34:18", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:18] POST /login -> 200 (6ms)
+127.0.0.1 - - [04/Sep/2025 12:34:18] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-04 12:34:20", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:20] GET /index.html -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:20] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-09-04 12:34:20", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:20] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:20] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:20", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:20] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:20] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:20", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:20] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:20] "GET /dark.css?v=1756960460577 HTTP/1.1" 200 -
+{"time": "2025-09-04 12:34:51", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 11, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:51] GET /academic/ -> 200 (11ms)
+127.0.0.1 - - [04/Sep/2025 12:34:51] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:34:51", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:51] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:51] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:51", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:51] GET /dark.css -> 200 (1ms)
+{"time": "2025-09-04 12:34:51", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:51] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:51] "GET /dark.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2025 12:34:51] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:52", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:52] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:52] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:34:52", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 232, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:52] GET /academic/api/subjects -> 200 (232ms)
+127.0.0.1 - - [04/Sep/2025 12:34:52] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 12:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:57] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:57] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:57] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:34:57] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:57] GET /dark.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 12:34:57] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:57] GET /theme.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 12:34:57] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:57] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:34:57] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:34:57", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 228, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:34:57] GET /academic/api/subjects -> 200 (228ms)
+127.0.0.1 - - [04/Sep/2025 12:34:57] "GET /academic/api/subjects HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 12:37:16", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 6, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:16] GET /academic/ -> 200 (6ms)
+127.0.0.1 - - [04/Sep/2025 12:37:16] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:37:16", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 173, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:16] GET /theme.js -> 304 (173ms)
+127.0.0.1 - - [04/Sep/2025 12:37:16] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:16", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 225, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:16] GET /light.css -> 304 (225ms)
+127.0.0.1 - - [04/Sep/2025 12:37:16] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:16", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 228, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:16] GET /dark.css -> 304 (228ms)
+127.0.0.1 - - [04/Sep/2025 12:37:16] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:16", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:16] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:37:16] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:37:17", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 322, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:17] GET /academic/api/subjects -> 200 (322ms)
+127.0.0.1 - - [04/Sep/2025 12:37:17] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 12:37:28", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:28] GET / -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:37:28] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:28", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:28] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:37:28] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:28", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:28] GET /theme.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 12:37:28] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:28", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:28] GET /login.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:37:28] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:28", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:28] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:37:28] "GET /dark.css?v=1756960648701 HTTP/1.1" 200 -
+{"time": "2025-09-04 12:37:30", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:30] POST /login -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:37:30] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-04 12:37:31", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:31] GET /index.html -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:37:31] "[36mGET /index.html HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:31", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:31] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:37:31] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:31", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:31] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:37:31] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:37:31", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:37:31] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:37:31] "GET /dark.css?v=1756960651741 HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 12:43:10", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 88, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:10] GET /index.html -> 200 (88ms)
+127.0.0.1 - - [04/Sep/2025 12:43:10] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:10", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:10] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:10] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:10", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:10] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:10] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:10", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:10] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:10] "GET /dark.css?v=1756960990771 HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:13", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:13] GET /academic/ -> 200 (9ms)
+127.0.0.1 - - [04/Sep/2025 12:43:13] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:13", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:13] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:13] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:13", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:13] GET /dark.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:43:13] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:13", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:13] GET /theme.js -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 12:43:13] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:13", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:13] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:13] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:43:13", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 235, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:13] GET /academic/api/subjects -> 200 (235ms)
+127.0.0.1 - - [04/Sep/2025 12:43:13] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:41", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:41] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:41] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:41", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:41] GET /light.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:41] "GET /light.css HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:41", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:41] GET /dark.css -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:43:41] "GET /dark.css HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:41", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:41] GET /theme.js -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:41] "GET /theme.js HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:41", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:41] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:41] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:41", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:41] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:41] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:43:41", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 407, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:41] GET /academic/api/subjects -> 200 (407ms)
+127.0.0.1 - - [04/Sep/2025 12:43:41] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:45", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:45] GET /index.html -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:43:45] "[36mGET /index.html HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:45", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:45] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:45] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:45", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:45] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:45] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:45", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:45] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:45] "GET /dark.css?v=1756961025077 HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:46", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:46] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:46] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:43:46", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 12:43:46", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:46] GET /light.css -> 304 (2ms)
+[2025-09-04 12:43:46] GET /dark.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:43:46] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:46", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [04/Sep/2025 12:43:46] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+[2025-09-04 12:43:46] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:43:46] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:43:46", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:46] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:43:47] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:43:47", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 228, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:43:47] GET /academic/api/subjects -> 200 (228ms)
+127.0.0.1 - - [04/Sep/2025 12:43:47] "GET /academic/api/subjects HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 12:45:25", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 8, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:25] GET /academic/ -> 200 (8ms)
+127.0.0.1 - - [04/Sep/2025 12:45:25] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:45:25", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 261, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:25] GET /light.css -> 304 (261ms)
+127.0.0.1 - - [04/Sep/2025 12:45:25] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:45:25", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 280, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:25] GET /theme.js -> 304 (280ms)
+127.0.0.1 - - [04/Sep/2025 12:45:25] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:45:25", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 286, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:25] GET /dark.css -> 304 (286ms)
+127.0.0.1 - - [04/Sep/2025 12:45:25] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:45:25", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:25] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:45:25] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:45:26", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 466, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:26] GET /academic/api/subjects -> 200 (466ms)
+127.0.0.1 - - [04/Sep/2025 12:45:26] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 12:45:29", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:29] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:45:29] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:45:29", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:29] GET /light.css -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 12:45:29] "GET /light.css HTTP/1.1" 200 -
+{"time": "2025-09-04 12:45:29", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:29] GET /theme.js -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:45:29] "GET /theme.js HTTP/1.1" 200 -
+{"time": "2025-09-04 12:45:29", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:29] GET /dark.css -> 200 (2ms)
+127.0.0.1 - - [04/Sep/2025 12:45:29] "GET /dark.css HTTP/1.1" 200 -
+{"time": "2025-09-04 12:45:29", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:29] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:45:29] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-09-04 12:45:29", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:29] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:45:29] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:45:29", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 245, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:45:29] GET /academic/api/subjects -> 200 (245ms)
+127.0.0.1 - - [04/Sep/2025 12:45:29] "GET /academic/api/subjects HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 12:55:04", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 9, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:55:04] GET /academic/ -> 200 (9ms)
+127.0.0.1 - - [04/Sep/2025 12:55:04] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 12:55:05", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 306, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:55:05] GET /light.css -> 304 (306ms)
+127.0.0.1 - - [04/Sep/2025 12:55:05] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:55:05", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 329, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:55:05] GET /theme.js -> 304 (329ms)
+127.0.0.1 - - [04/Sep/2025 12:55:05] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:55:05", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 336, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:55:05] GET /dark.css -> 304 (336ms)
+127.0.0.1 - - [04/Sep/2025 12:55:05] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 12:55:05", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:55:05] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 12:55:05] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 12:55:05", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 406, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 12:55:05] GET /academic/api/subjects -> 200 (406ms)
+127.0.0.1 - - [04/Sep/2025 12:55:05] "GET /academic/api/subjects HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 13:24:23", "ip": "127.0.0.1", "method": "GET", "path": "/academic/test", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:24:23] GET /academic/test -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:24:23] "GET /academic/test HTTP/1.1" 200 -
+{"time": "2025-09-04 13:24:37", "ip": "127.0.0.1", "method": "POST", "path": "/register", "status": 200, "duration_ms": 15, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:24:37] POST /register -> 200 (15ms)
+127.0.0.1 - - [04/Sep/2025 13:24:37] "POST /register HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 13:25:54", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 7, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:25:54] GET /academic/ -> 200 (7ms)
+127.0.0.1 - - [04/Sep/2025 13:25:54] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:25:54", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 198, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:25:54] GET /dark.css -> 304 (198ms)
+127.0.0.1 - - [04/Sep/2025 13:25:54] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:25:54", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 204, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:25:54] GET /theme.js -> 304 (204ms)
+127.0.0.1 - - [04/Sep/2025 13:25:54] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:25:54", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 215, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:25:54] GET /light.css -> 304 (215ms)
+127.0.0.1 - - [04/Sep/2025 13:25:54] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:25:54", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:25:54] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:25:54] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 13:25:54", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 314, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:25:54] GET /academic/api/subjects -> 200 (314ms)
+127.0.0.1 - - [04/Sep/2025 13:25:54] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 13:25:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:25:58] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:25:58] "[35m[1mGET /academic/api/resources?page=1&per_page=20&subject=¼ÆËã»ú¿ÆÑ§ HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 13:26:03", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 304, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:03] GET / -> 304 (12ms)
+127.0.0.1 - - [04/Sep/2025 13:26:03] "[36mGET / HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:03", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:03] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:03] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:03", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:03] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:26:03] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:03", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 15, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:03] GET /login.js -> 304 (15ms)
+127.0.0.1 - - [04/Sep/2025 13:26:03] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:03", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:03] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:03] "GET /dark.css?v=1756963563582 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:26:05", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:05] POST /login -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:26:05] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-04 13:26:06", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:06] GET /index.html -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:06] "[36mGET /index.html HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:06", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:06] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:26:06] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:06", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:06] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:26:06] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:06", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:06] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:06] "GET /dark.css?v=1756963566413 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:26:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:07] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:07] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:26:07", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:07] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:07] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:07", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 13:26:07", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:07] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:07] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+[2025-09-04 13:26:07] GET /dark.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:26:07] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:26:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:07] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:07] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 13:26:08", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 228, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:26:08] GET /academic/api/subjects -> 200 (228ms)
+127.0.0.1 - - [04/Sep/2025 13:26:08] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 13:26:35", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 302, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:26:35] GET /academic/api/resources -> 302 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:35] "[32mGET /academic/api/resources HTTP/1.1[0m" 302 -
+{"time": "2025-09-04 13:26:35", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:26:35] GET / -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:35] "GET / HTTP/1.1" 200 -
+{"time": "2025-09-04 13:26:42", "ip": "127.0.0.1", "method": "GET", "path": "/academic/test", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:26:42] GET /academic/test -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:26:42] "GET /academic/test HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 13:29:01", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:01] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:01] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:01", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:01] GET /light.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:29:01] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:01", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:01] GET /dark.css -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 13:29:01] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:01", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:01] GET /theme.js -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 13:29:01] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:01", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:01] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:01] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 13:29:02", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 583, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:02] GET /academic/api/subjects -> 200 (583ms)
+127.0.0.1 - - [04/Sep/2025 13:29:02] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:06", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:06] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:06] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:06", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:06] GET /light.css -> 200 (2ms)
+{"time": "2025-09-04 13:29:06", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [04/Sep/2025 13:29:06] "GET /light.css HTTP/1.1" 200 -
+[2025-09-04 13:29:06] GET /dark.css -> 200 (3ms)
+{"time": "2025-09-04 13:29:06", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:06] GET /theme.js -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:29:06] "GET /dark.css HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2025 13:29:06] "GET /theme.js HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:06", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:06] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:06] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 13:29:06", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 65, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:06] GET /favicon.ico -> 200 (65ms)
+127.0.0.1 - - [04/Sep/2025 13:29:06] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 593, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:07] GET /academic/api/subjects -> 200 (593ms)
+127.0.0.1 - - [04/Sep/2025 13:29:07] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:10", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:10] GET / -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:29:10] "GET / HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:10", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:10] GET /light.css -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 13:29:10] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:10", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:10] GET /theme.js -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 13:29:10] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:10", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:10] GET /login.js -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:29:10] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:10", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:10] GET /dark.css -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:29:10] "GET /dark.css?v=1756963750928 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:12", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:12] POST /login -> 200 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:29:12] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:13", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:13] GET /index.html -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:13] "GET /index.html HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:13", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:13] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:13] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:13", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:13] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:13] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:13", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:13] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:13] "GET /dark.css?v=1756963753551 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:15", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:15] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:15] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:29:15", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:15] GET /light.css -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 13:29:15] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:15", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:15] GET /dark.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:29:15] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:15", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:15] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:29:15] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:29:15", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 500, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:15] GET /academic/api/resources -> 500 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:29:15] "[35m[1mGET /academic/api/resources?page=1&per_page=20 HTTP/1.1[0m" 500 -
+{"time": "2025-09-04 13:29:15", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 595, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:29:15] GET /academic/api/subjects -> 200 (595ms)
+127.0.0.1 - - [04/Sep/2025 13:29:15] "GET /academic/api/subjects HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 13:35:09", "ip": "127.0.0.1", "method": "GET", "path": "/academic/test", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:35:09] GET /academic/test -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:35:09] "GET /academic/test HTTP/1.1" 200 -
+{"time": "2025-09-04 13:35:16", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 302, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:35:16] GET /academic/api/resources -> 302 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:35:16] "[32mGET /academic/api/resources HTTP/1.1[0m" 302 -
+{"time": "2025-09-04 13:35:16", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 152, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:35:16] GET / -> 200 (152ms)
+127.0.0.1 - - [04/Sep/2025 13:35:16] "GET / HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 13:36:09", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 16, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:09] GET /academic/ -> 200 (16ms)
+127.0.0.1 - - [04/Sep/2025 13:36:09] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:09", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:09] GET /theme.js -> 304 (2ms)
+{"time": "2025-09-04 13:36:09", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [04/Sep/2025 13:36:09] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+[2025-09-04 13:36:09] GET /light.css -> 304 (3ms)
+{"time": "2025-09-04 13:36:09", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [04/Sep/2025 13:36:09] "[36mGET /light.css HTTP/1.1[0m" 304 -
+[2025-09-04 13:36:09] GET /dark.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:36:09] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:10", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 1045, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:10] GET /academic/api/subjects -> 200 (1045ms)
+127.0.0.1 - - [04/Sep/2025 13:36:10] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:10", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 956, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:10] GET /academic/api/resources -> 200 (956ms)
+127.0.0.1 - - [04/Sep/2025 13:36:10] "GET /academic/api/resources?page=1&per_page=20 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:19", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:19] GET / -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:36:19] "GET / HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:19", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:19] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:36:19] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:19", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:19] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:36:19] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:19", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:19] GET /login.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:36:19] "[36mGET /login.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:19", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:19] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:36:19] "GET /dark.css?v=1756964179159 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:20", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:20] POST /login -> 200 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:36:20] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:21", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:21] GET /index.html -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:36:21] "[36mGET /index.html HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:21", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:21] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:36:21] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:21", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:21] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:36:21] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:21", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:21] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:36:21] "GET /dark.css?v=1756964181740 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:22", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:22] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:36:22] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:22", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:22] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:36:22] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:22", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:22] GET /theme.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:36:22] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:22", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:22] GET /dark.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:36:22] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:36:23", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 672, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:23] GET /academic/api/subjects -> 200 (672ms)
+127.0.0.1 - - [04/Sep/2025 13:36:23] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 13:36:23", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 679, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:36:23] GET /academic/api/resources -> 200 (679ms)
+127.0.0.1 - - [04/Sep/2025 13:36:23] "GET /academic/api/resources?page=1&per_page=20 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:39:23", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:39:23] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:39:23] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:39:23", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:39:23] GET /light.css -> 200 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:39:23] "GET /light.css HTTP/1.1" 200 -
+{"time": "2025-09-04 13:39:23", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 13:39:23", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:39:23] GET /dark.css -> 200 (2ms)
+[2025-09-04 13:39:23] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:39:23] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Sep/2025 13:39:23] "GET /dark.css HTTP/1.1" 200 -
+{"time": "2025-09-04 13:39:23", "ip": "127.0.0.1", "method": "GET", "path": "/favicon.ico", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:39:23] GET /favicon.ico -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:39:23] "GET /favicon.ico HTTP/1.1" 200 -
+{"time": "2025-09-04 13:39:24", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/subjects", "status": 200, "duration_ms": 892, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:39:24] GET /academic/api/subjects -> 200 (892ms)
+127.0.0.1 - - [04/Sep/2025 13:39:24] "GET /academic/api/subjects HTTP/1.1" 200 -
+{"time": "2025-09-04 13:39:24", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 831, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:39:24] GET /academic/api/resources -> 200 (831ms)
+127.0.0.1 - - [04/Sep/2025 13:39:24] "GET /academic/api/resources?page=1&per_page=20 HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 13:53:10", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:53:10] GET /academic/ -> 200 (12ms)
+127.0.0.1 - - [04/Sep/2025 13:53:10] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:53:11", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 370, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:53:11] GET /light.css -> 304 (370ms)
+127.0.0.1 - - [04/Sep/2025 13:53:11] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:53:11", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 443, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:53:11] GET /theme.js -> 304 (443ms)
+127.0.0.1 - - [04/Sep/2025 13:53:11] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:53:11", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 461, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:53:11] GET /dark.css -> 304 (461ms)
+127.0.0.1 - - [04/Sep/2025 13:53:11] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:53:12", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1572, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:53:12] GET /academic/api/categories -> 200 (1572ms)
+127.0.0.1 - - [04/Sep/2025 13:53:12] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 13:53:13", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1606, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:53:13] GET /academic/api/resources -> 200 (1606ms)
+127.0.0.1 - - [04/Sep/2025 13:53:13] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 13:53:15", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3727, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:53:15] GET /academic/api/folders/tree -> 200 (3727ms)
+127.0.0.1 - - [04/Sep/2025 13:53:15] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 13:55:22", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 302, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:55:22] GET /academic/api/folders/tree -> 302 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:55:22] "[32mGET /academic/api/folders/tree HTTP/1.1[0m" 302 -
+{"time": "2025-09-04 13:55:22", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 144, "user_agent": "Mozilla/5.0 (Windows NT; Windows NT 10.0; zh-CN) WindowsPowerShell/5.1.22621.5697"}
+[2025-09-04 13:55:22] GET / -> 200 (144ms)
+127.0.0.1 - - [04/Sep/2025 13:55:22] "GET / HTTP/1.1" 200 -
+{"time": "2025-09-04 13:57:49", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:57:49] GET /academic/ -> 200 (12ms)
+127.0.0.1 - - [04/Sep/2025 13:57:49] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:57:49", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:57:49] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 13:57:49] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:57:49", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:57:49] GET /dark.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:57:49] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:57:49", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:57:49] GET /theme.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 13:57:49] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:57:51", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1836, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 13:57:51", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1932, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:57:51] GET /academic/api/categories -> 200 (1836ms)
+[2025-09-04 13:57:51] GET /academic/api/resources -> 200 (1932ms)
+127.0.0.1 - - [04/Sep/2025 13:57:52] "GET /academic/api/categories HTTP/1.1" 200 -
+127.0.0.1 - - [04/Sep/2025 13:57:52] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 13:57:53", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3563, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:57:53] GET /academic/api/folders/tree -> 200 (3563ms)
+127.0.0.1 - - [04/Sep/2025 13:57:53] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:57:59", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 4637, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:57:59] GET /academic/api/resources -> 200 (4637ms)
+127.0.0.1 - - [04/Sep/2025 13:57:59] "GET /academic/api/resources?folder_id=10 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:57:59", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 4104, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:57:59] GET /academic/api/resources -> 200 (4104ms)
+127.0.0.1 - - [04/Sep/2025 13:57:59] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:01", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 4955, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 13:58:01", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 4103, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:01] GET /academic/api/resources -> 200 (4955ms)
+127.0.0.1 - - [04/Sep/2025 13:58:01] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+[2025-09-04 13:58:01] GET /academic/api/resources -> 200 (4103ms)
+127.0.0.1 - - [04/Sep/2025 13:58:01] "GET /academic/api/resources?folder_id=8 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:02", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 4605, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:02] GET /academic/api/resources -> 200 (4605ms)
+127.0.0.1 - - [04/Sep/2025 13:58:02] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:12", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 17811, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:12] GET /academic/api/folders/tree -> 200 (17811ms)
+127.0.0.1 - - [04/Sep/2025 13:58:12] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:13", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 15722, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:13] GET /academic/api/folders/tree -> 200 (15722ms)
+127.0.0.1 - - [04/Sep/2025 13:58:13] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:13", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 17749, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:13] GET /academic/api/folders/tree -> 200 (17749ms)
+127.0.0.1 - - [04/Sep/2025 13:58:13] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:13", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 16923, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:13] GET /academic/api/folders/tree -> 200 (16923ms)
+127.0.0.1 - - [04/Sep/2025 13:58:13] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:13", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 13901, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:13] GET /academic/api/folders/tree -> 200 (13901ms)
+127.0.0.1 - - [04/Sep/2025 13:58:13] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:24", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 773, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:24] GET /academic/api/resources -> 200 (773ms)
+127.0.0.1 - - [04/Sep/2025 13:58:24] "GET /academic/api/resources?folder_id=10 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:27", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4133, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:27] GET /academic/api/folders/tree -> 200 (4133ms)
+127.0.0.1 - - [04/Sep/2025 13:58:27] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:27", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1428, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:27] GET /academic/api/resources -> 200 (1428ms)
+127.0.0.1 - - [04/Sep/2025 13:58:27] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:58:30", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4239, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:58:30] GET /academic/api/folders/tree -> 200 (4239ms)
+127.0.0.1 - - [04/Sep/2025 13:58:30] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:34", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 829, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:34] GET /academic/api/resources -> 200 (829ms)
+127.0.0.1 - - [04/Sep/2025 13:59:34] "GET /academic/api/resources?folder_id=8 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:36", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 2702, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:36] GET /academic/api/resources -> 200 (2702ms)
+127.0.0.1 - - [04/Sep/2025 13:59:36] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:37", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 2231, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:37] GET /academic/api/resources -> 200 (2231ms)
+127.0.0.1 - - [04/Sep/2025 13:59:37] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:40", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 2468, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:40] GET /academic/api/resources -> 200 (2468ms)
+127.0.0.1 - - [04/Sep/2025 13:59:40] "GET /academic/api/resources?folder_id=10 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:42", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 9551, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:42] GET /academic/api/folders/tree -> 200 (9551ms)
+127.0.0.1 - - [04/Sep/2025 13:59:42] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:45", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 11550, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:45] GET /academic/api/folders/tree -> 200 (11550ms)
+127.0.0.1 - - [04/Sep/2025 13:59:45] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:46", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 11487, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:46] GET /academic/api/folders/tree -> 200 (11487ms)
+127.0.0.1 - - [04/Sep/2025 13:59:46] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:46", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 2891, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:46] GET /academic/api/resources -> 200 (2891ms)
+127.0.0.1 - - [04/Sep/2025 13:59:46] "GET /academic/api/resources?folder_id=10 HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:48", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 10203, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:48] GET /academic/api/folders/tree -> 200 (10203ms)
+127.0.0.1 - - [04/Sep/2025 13:59:48] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:49", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 5513, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:49] GET /academic/api/folders/tree -> 200 (5513ms)
+127.0.0.1 - - [04/Sep/2025 13:59:49] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:55", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:55] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:59:55] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:55", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:55] GET /light.css -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 13:59:55] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:59:55", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:55] GET /dark.css -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 13:59:55] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:59:55", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:55] GET /theme.js -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 13:59:55] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 13:59:56", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1046, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:56] GET /academic/api/categories -> 200 (1046ms)
+127.0.0.1 - - [04/Sep/2025 13:59:56] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:56", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1050, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:56] GET /academic/api/resources -> 200 (1050ms)
+127.0.0.1 - - [04/Sep/2025 13:59:56] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 13:59:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3313, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 13:59:58] GET /academic/api/folders/tree -> 200 (3313ms)
+127.0.0.1 - - [04/Sep/2025 13:59:58] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:00:39", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 12, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:39] GET /academic/ -> 200 (12ms)
+127.0.0.1 - - [04/Sep/2025 14:00:39] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:40", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 428, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:40] GET /dark.css -> 304 (428ms)
+127.0.0.1 - - [04/Sep/2025 14:00:40] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:40", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 432, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:40] GET /light.css -> 304 (432ms)
+127.0.0.1 - - [04/Sep/2025 14:00:40] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:40", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 439, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:40] GET /theme.js -> 304 (439ms)
+127.0.0.1 - - [04/Sep/2025 14:00:40] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:41", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1386, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:41] GET /academic/api/categories -> 200 (1386ms)
+127.0.0.1 - - [04/Sep/2025 14:00:41] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:41", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1702, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:41] GET /academic/api/resources -> 200 (1702ms)
+127.0.0.1 - - [04/Sep/2025 14:00:41] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:43", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3363, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:43] GET /academic/api/folders/tree -> 200 (3363ms)
+127.0.0.1 - - [04/Sep/2025 14:00:43] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:48", "ip": "127.0.0.1", "method": "GET", "path": "/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:48] GET / -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:00:48] "GET / HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:48", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:48] GET /light.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:00:48] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:48", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:48] GET /theme.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:00:48] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:48", "ip": "127.0.0.1", "method": "GET", "path": "/login.js", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:48] GET /login.js -> 200 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:00:48] "GET /login.js HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:48", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:48] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:00:48] "GET /dark.css?v=1756965648268 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:49", "ip": "127.0.0.1", "method": "POST", "path": "/login", "status": 200, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:49] POST /login -> 200 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:00:49] "POST /login HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:50", "ip": "127.0.0.1", "method": "GET", "path": "/index.html", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:50] GET /index.html -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:00:50] "[36mGET /index.html HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:50", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:50] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 14:00:50] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:50", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:50] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 14:00:50] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:50", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:50] GET /dark.css -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:00:50] "GET /dark.css?v=1756965650959 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:55", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:55] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:00:55] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:55", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 14:00:55", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:55] GET /light.css -> 304 (1ms)
+{"time": "2025-09-04 14:00:55", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:55] GET /dark.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 14:00:55] "[36mGET /light.css HTTP/1.1[0m" 304 -
+[2025-09-04 14:00:55] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:00:55] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Sep/2025 14:00:55] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:00:56", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1105, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:56] GET /academic/api/categories -> 200 (1105ms)
+127.0.0.1 - - [04/Sep/2025 14:00:56] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:56", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1121, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:56] GET /academic/api/resources -> 200 (1121ms)
+127.0.0.1 - - [04/Sep/2025 14:00:56] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:00:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3639, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:00:58] GET /academic/api/folders/tree -> 200 (3639ms)
+127.0.0.1 - - [04/Sep/2025 14:00:58] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:01:03", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1170, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:01:03] GET /academic/api/resources -> 200 (1170ms)
+127.0.0.1 - - [04/Sep/2025 14:01:03] "GET /academic/api/resources?folder_id=10 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:01:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 2158, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:01:07] GET /academic/api/resources -> 200 (2158ms)
+127.0.0.1 - - [04/Sep/2025 14:01:07] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:01:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4511, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:01:07] GET /academic/api/folders/tree -> 200 (4511ms)
+127.0.0.1 - - [04/Sep/2025 14:01:07] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:01:09", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1341, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:01:09] GET /academic/api/resources -> 200 (1341ms)
+127.0.0.1 - - [04/Sep/2025 14:01:09] "GET /academic/api/resources?folder_id=10 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:01:10", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 5576, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:01:10] GET /academic/api/folders/tree -> 200 (5576ms)
+127.0.0.1 - - [04/Sep/2025 14:01:10] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:01:14", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 5520, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:01:14] GET /academic/api/folders/tree -> 200 (5520ms)
+127.0.0.1 - - [04/Sep/2025 14:01:14] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:05:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 14, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:07] GET /academic/ -> 200 (14ms)
+127.0.0.1 - - [04/Sep/2025 14:05:07] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 295, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:08] GET /theme.js -> 304 (295ms)
+127.0.0.1 - - [04/Sep/2025 14:05:08] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 342, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:08] GET /light.css -> 304 (342ms)
+127.0.0.1 - - [04/Sep/2025 14:05:08] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:05:08", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 355, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:08] GET /dark.css -> 304 (355ms)
+127.0.0.1 - - [04/Sep/2025 14:05:08] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:05:09", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1347, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:09] GET /academic/api/categories -> 200 (1347ms)
+127.0.0.1 - - [04/Sep/2025 14:05:09] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:09", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1360, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:09] GET /academic/api/resources -> 200 (1360ms)
+127.0.0.1 - - [04/Sep/2025 14:05:09] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:11", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3313, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:11] GET /academic/api/folders/tree -> 200 (3313ms)
+127.0.0.1 - - [04/Sep/2025 14:05:11] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:18", "ip": "127.0.0.1", "method": "DELETE", "path": "/academic/api/folders/10", "status": 200, "duration_ms": 835, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:18] DELETE /academic/api/folders/10 -> 200 (835ms)
+127.0.0.1 - - [04/Sep/2025 14:05:18] "DELETE /academic/api/folders/10 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:19", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 934, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:19] GET /academic/api/resources -> 200 (934ms)
+127.0.0.1 - - [04/Sep/2025 14:05:19] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:21", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3262, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:21] GET /academic/api/folders/tree -> 200 (3262ms)
+127.0.0.1 - - [04/Sep/2025 14:05:21] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:26", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1060, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:26] GET /academic/api/resources -> 200 (1060ms)
+127.0.0.1 - - [04/Sep/2025 14:05:26] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:28", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2961, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:28] GET /academic/api/folders/tree -> 200 (2961ms)
+127.0.0.1 - - [04/Sep/2025 14:05:28] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:52", "ip": "127.0.0.1", "method": "POST", "path": "/academic/api/resources", "status": 200, "duration_ms": 825, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:52] POST /academic/api/resources -> 200 (825ms)
+127.0.0.1 - - [04/Sep/2025 14:05:52] "POST /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:53", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1099, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:53] GET /academic/api/resources -> 200 (1099ms)
+127.0.0.1 - - [04/Sep/2025 14:05:53] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:05:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1078, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:05:58] GET /academic/api/resources -> 200 (1078ms)
+127.0.0.1 - - [04/Sep/2025 14:05:58] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:00", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1686, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:00] GET /academic/api/resources -> 200 (1686ms)
+127.0.0.1 - - [04/Sep/2025 14:06:00] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:02", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 5706, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:02] GET /academic/api/folders/tree -> 200 (5706ms)
+127.0.0.1 - - [04/Sep/2025 14:06:02] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:03", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4705, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:03] GET /academic/api/folders/tree -> 200 (4705ms)
+127.0.0.1 - - [04/Sep/2025 14:06:03] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:43", "ip": "127.0.0.1", "method": "POST", "path": "/academic/api/categories", "status": 200, "duration_ms": 407, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:43] POST /academic/api/categories -> 200 (407ms)
+127.0.0.1 - - [04/Sep/2025 14:06:43] "POST /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:44", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 549, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:44] GET /academic/api/categories -> 200 (549ms)
+127.0.0.1 - - [04/Sep/2025 14:06:44] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:47", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 879, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:47] GET /academic/api/resources -> 200 (879ms)
+127.0.0.1 - - [04/Sep/2025 14:06:47] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:50", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3797, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:50] GET /academic/api/folders/tree -> 200 (3797ms)
+127.0.0.1 - - [04/Sep/2025 14:06:50] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:54", "ip": "127.0.0.1", "method": "POST", "path": "/academic/api/resources", "status": 200, "duration_ms": 744, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:54] POST /academic/api/resources -> 200 (744ms)
+127.0.0.1 - - [04/Sep/2025 14:06:54] "POST /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:55", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 595, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:55] GET /academic/api/resources -> 200 (595ms)
+127.0.0.1 - - [04/Sep/2025 14:06:55] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:58] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:06:58] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:06:58", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:58] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 14:06:58] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:06:58", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:58] GET /dark.css -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 14:06:58] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:06:58", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:06:58] GET /theme.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:06:58] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:07:00", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1765, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:00] GET /academic/api/categories -> 200 (1765ms)
+127.0.0.1 - - [04/Sep/2025 14:07:00] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:00", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1987, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:00] GET /academic/api/resources -> 200 (1987ms)
+127.0.0.1 - - [04/Sep/2025 14:07:00] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:01", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3373, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:01] GET /academic/api/folders/tree -> 200 (3373ms)
+127.0.0.1 - - [04/Sep/2025 14:07:01] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:04", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 963, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:04] GET /academic/api/resources -> 200 (963ms)
+127.0.0.1 - - [04/Sep/2025 14:07:04] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:06", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3610, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:06] GET /academic/api/folders/tree -> 200 (3610ms)
+127.0.0.1 - - [04/Sep/2025 14:07:06] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1492, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:07] GET /academic/api/resources -> 200 (1492ms)
+127.0.0.1 - - [04/Sep/2025 14:07:07] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:09", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1451, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:09] GET /academic/api/resources -> 200 (1451ms)
+127.0.0.1 - - [04/Sep/2025 14:07:09] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:10", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4865, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:10] GET /academic/api/folders/tree -> 200 (4865ms)
+127.0.0.1 - - [04/Sep/2025 14:07:10] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:11", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4062, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:11] GET /academic/api/folders/tree -> 200 (4062ms)
+127.0.0.1 - - [04/Sep/2025 14:07:11] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:17", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 950, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:17] GET /academic/api/resources -> 200 (950ms)
+127.0.0.1 - - [04/Sep/2025 14:07:17] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:19", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2868, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:19] GET /academic/api/folders/tree -> 200 (2868ms)
+127.0.0.1 - - [04/Sep/2025 14:07:19] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:21", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:21] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:07:21] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:21", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:21] GET /light.css -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 14:07:21] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:07:21", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 1, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:21] GET /theme.js -> 304 (1ms)
+127.0.0.1 - - [04/Sep/2025 14:07:21] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:07:21", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 3, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:21] GET /dark.css -> 304 (3ms)
+127.0.0.1 - - [04/Sep/2025 14:07:21] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:07:23", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1265, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:23] GET /academic/api/categories -> 200 (1265ms)
+127.0.0.1 - - [04/Sep/2025 14:07:23] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:23", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1398, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:23] GET /academic/api/resources -> 200 (1398ms)
+127.0.0.1 - - [04/Sep/2025 14:07:23] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:07:24", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3214, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:07:24] GET /academic/api/folders/tree -> 200 (3214ms)
+127.0.0.1 - - [04/Sep/2025 14:07:24] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:12:41", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 21, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:12:41] GET /academic/ -> 200 (21ms)
+127.0.0.1 - - [04/Sep/2025 14:12:41] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:12:42", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 397, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:12:42] GET /theme.js -> 304 (397ms)
+127.0.0.1 - - [04/Sep/2025 14:12:42] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:12:42", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 405, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:12:42] GET /dark.css -> 304 (405ms)
+127.0.0.1 - - [04/Sep/2025 14:12:42] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:12:42", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 418, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:12:42] GET /light.css -> 304 (418ms)
+127.0.0.1 - - [04/Sep/2025 14:12:42] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:12:43", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1497, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:12:43] GET /academic/api/categories -> 200 (1497ms)
+127.0.0.1 - - [04/Sep/2025 14:12:43] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:12:44", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1704, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:12:44] GET /academic/api/resources -> 200 (1704ms)
+127.0.0.1 - - [04/Sep/2025 14:12:44] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:12:45", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3872, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:12:45] GET /academic/api/folders/tree -> 200 (3872ms)
+127.0.0.1 - - [04/Sep/2025 14:12:45] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:12:49", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/preview/3", "status": 200, "duration_ms": 622, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:12:49] GET /academic/api/preview/3 -> 200 (622ms)
+127.0.0.1 - - [04/Sep/2025 14:12:49] "GET /academic/api/preview/3 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:16", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 582, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:16] GET /academic/api/resources -> 200 (582ms)
+127.0.0.1 - - [04/Sep/2025 14:13:16] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:18", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 363, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:18] GET /academic/api/resources -> 200 (363ms)
+127.0.0.1 - - [04/Sep/2025 14:13:18] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:20", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 622, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:20] GET /academic/api/resources -> 200 (622ms)
+127.0.0.1 - - [04/Sep/2025 14:13:20] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:21", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 541, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:21] GET /academic/api/resources -> 200 (541ms)
+127.0.0.1 - - [04/Sep/2025 14:13:21] "GET /academic/api/resources?folder_id=8 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:21", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 421, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:21] GET /academic/api/resources -> 200 (421ms)
+127.0.0.1 - - [04/Sep/2025 14:13:21] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:23", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 392, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:23] GET /academic/api/resources -> 200 (392ms)
+127.0.0.1 - - [04/Sep/2025 14:13:23] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:24", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 432, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:24] GET /academic/api/resources -> 200 (432ms)
+127.0.0.1 - - [04/Sep/2025 14:13:24] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:30", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 435, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:30] GET /academic/api/resources -> 200 (435ms)
+127.0.0.1 - - [04/Sep/2025 14:13:30] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:46", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 364, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:46] GET /academic/api/resources -> 200 (364ms)
+127.0.0.1 - - [04/Sep/2025 14:13:46] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:58", "ip": "127.0.0.1", "method": "DELETE", "path": "/academic/api/resources/2", "status": 200, "duration_ms": 1306, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:58] DELETE /academic/api/resources/2 -> 200 (1306ms)
+127.0.0.1 - - [04/Sep/2025 14:13:58] "DELETE /academic/api/resources/2 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:13:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 388, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:13:58] GET /academic/api/resources -> 200 (388ms)
+127.0.0.1 - - [04/Sep/2025 14:13:58] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:14:53", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 494, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:14:53] GET /academic/api/resources -> 200 (494ms)
+127.0.0.1 - - [04/Sep/2025 14:14:53] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:14:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 525, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:14:58] GET /academic/api/resources -> 200 (525ms)
+127.0.0.1 - - [04/Sep/2025 14:14:58] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:04", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 458, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:04] GET /academic/api/resources -> 200 (458ms)
+127.0.0.1 - - [04/Sep/2025 14:15:04] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:39", "ip": "127.0.0.1", "method": "POST", "path": "/academic/api/resources", "status": 200, "duration_ms": 773, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:39] POST /academic/api/resources -> 200 (773ms)
+127.0.0.1 - - [04/Sep/2025 14:15:39] "POST /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:40", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 516, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:40] GET /academic/api/resources -> 200 (516ms)
+127.0.0.1 - - [04/Sep/2025 14:15:40] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:43", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 460, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:43] GET /academic/api/resources -> 200 (460ms)
+127.0.0.1 - - [04/Sep/2025 14:15:43] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:43", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 465, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:43] GET /academic/api/resources -> 200 (465ms)
+127.0.0.1 - - [04/Sep/2025 14:15:43] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:53", "ip": "127.0.0.1", "method": "DELETE", "path": "/academic/api/folders/6", "status": 200, "duration_ms": 836, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:53] DELETE /academic/api/folders/6 -> 200 (836ms)
+127.0.0.1 - - [04/Sep/2025 14:15:53] "DELETE /academic/api/folders/6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:55", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1521, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:55] GET /academic/api/resources -> 200 (1521ms)
+127.0.0.1 - - [04/Sep/2025 14:15:55] "GET /academic/api/resources?folder_id=6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:56", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2897, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:56] GET /academic/api/folders/tree -> 200 (2897ms)
+127.0.0.1 - - [04/Sep/2025 14:15:56] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:56", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:56] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:15:56] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:56", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:56] GET /light.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:15:56] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:15:56", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:56] GET /dark.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:15:56] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:15:56", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:56] GET /theme.js -> 304 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:15:56] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:15:57", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1376, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:57] GET /academic/api/categories -> 200 (1376ms)
+127.0.0.1 - - [04/Sep/2025 14:15:57] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1525, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:58] GET /academic/api/resources -> 200 (1525ms)
+127.0.0.1 - - [04/Sep/2025 14:15:58] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:15:59", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2738, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:15:59] GET /academic/api/folders/tree -> 200 (2738ms)
+127.0.0.1 - - [04/Sep/2025 14:15:59] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:16:01", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 379, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:16:01] GET /academic/api/resources -> 200 (379ms)
+127.0.0.1 - - [04/Sep/2025 14:16:01] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:16:02", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 347, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:16:02] GET /academic/api/resources -> 200 (347ms)
+127.0.0.1 - - [04/Sep/2025 14:16:02] "GET /academic/api/resources?folder_id=8 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:16:02", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 428, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:16:02] GET /academic/api/resources -> 200 (428ms)
+127.0.0.1 - - [04/Sep/2025 14:16:02] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:16:03", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 421, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:16:03] GET /academic/api/resources -> 200 (421ms)
+127.0.0.1 - - [04/Sep/2025 14:16:03] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:16:05", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 435, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:16:05] GET /academic/api/resources -> 200 (435ms)
+127.0.0.1 - - [04/Sep/2025 14:16:05] "GET /academic/api/resources HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:19:41", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 15, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:41] GET /academic/ -> 200 (15ms)
+127.0.0.1 - - [04/Sep/2025 14:19:41] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:41", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 364, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 14:19:41", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 380, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+{"time": "2025-09-04 14:19:41", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 392, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:41] GET /theme.js -> 304 (364ms)
+127.0.0.1 - - [04/Sep/2025 14:19:41] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+[2025-09-04 14:19:41] GET /dark.css -> 304 (380ms)
+[2025-09-04 14:19:41] GET /light.css -> 304 (392ms)
+127.0.0.1 - - [04/Sep/2025 14:19:41] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [04/Sep/2025 14:19:41] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:19:43", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1080, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:43] GET /academic/api/categories -> 200 (1080ms)
+127.0.0.1 - - [04/Sep/2025 14:19:43] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:43", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1147, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:43] GET /academic/api/resources -> 200 (1147ms)
+127.0.0.1 - - [04/Sep/2025 14:19:43] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:44", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2996, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:44] GET /academic/api/folders/tree -> 200 (2996ms)
+127.0.0.1 - - [04/Sep/2025 14:19:44] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:48", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 986, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:48] GET /academic/api/resources -> 200 (986ms)
+127.0.0.1 - - [04/Sep/2025 14:19:48] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:51", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 2821, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:51] GET /academic/api/resources -> 200 (2821ms)
+127.0.0.1 - - [04/Sep/2025 14:19:51] "GET /academic/api/resources?folder_id=8 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:52", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 2403, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:52] GET /academic/api/resources -> 200 (2403ms)
+127.0.0.1 - - [04/Sep/2025 14:19:52] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:53", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 5830, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:53] GET /academic/api/folders/tree -> 200 (5830ms)
+127.0.0.1 - - [04/Sep/2025 14:19:53] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:54", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 5756, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:54] GET /academic/api/folders/tree -> 200 (5756ms)
+127.0.0.1 - - [04/Sep/2025 14:19:54] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:19:54", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4783, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:19:54] GET /academic/api/folders/tree -> 200 (4783ms)
+127.0.0.1 - - [04/Sep/2025 14:19:54] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 689, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:07] GET /academic/api/resources -> 200 (689ms)
+127.0.0.1 - - [04/Sep/2025 14:20:07] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:08", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 1876, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:08] GET /academic/api/folders/tree -> 200 (1876ms)
+127.0.0.1 - - [04/Sep/2025 14:20:08] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:11", "ip": "127.0.0.1", "method": "DELETE", "path": "/academic/api/resources/4", "status": 200, "duration_ms": 1205, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:11] DELETE /academic/api/resources/4 -> 200 (1205ms)
+127.0.0.1 - - [04/Sep/2025 14:20:11] "DELETE /academic/api/resources/4 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:12", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 402, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:12] GET /academic/api/resources -> 200 (402ms)
+127.0.0.1 - - [04/Sep/2025 14:20:12] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:17", "ip": "127.0.0.1", "method": "DELETE", "path": "/academic/api/resources/3", "status": 200, "duration_ms": 1453, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:17] DELETE /academic/api/resources/3 -> 200 (1453ms)
+127.0.0.1 - - [04/Sep/2025 14:20:17] "DELETE /academic/api/resources/3 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:18", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 702, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:18] GET /academic/api/resources -> 200 (702ms)
+127.0.0.1 - - [04/Sep/2025 14:20:18] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:31", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 850, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:31] GET /academic/api/resources -> 200 (850ms)
+127.0.0.1 - - [04/Sep/2025 14:20:31] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:32", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2257, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:32] GET /academic/api/folders/tree -> 200 (2257ms)
+127.0.0.1 - - [04/Sep/2025 14:20:32] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:48", "ip": "127.0.0.1", "method": "POST", "path": "/academic/api/resources", "status": 200, "duration_ms": 506, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:48] POST /academic/api/resources -> 200 (506ms)
+127.0.0.1 - - [04/Sep/2025 14:20:48] "POST /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:49", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 406, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:49] GET /academic/api/resources -> 200 (406ms)
+127.0.0.1 - - [04/Sep/2025 14:20:49] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:55", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 807, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:55] GET /academic/api/resources -> 200 (807ms)
+127.0.0.1 - - [04/Sep/2025 14:20:55] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:56", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2310, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:56] GET /academic/api/folders/tree -> 200 (2310ms)
+127.0.0.1 - - [04/Sep/2025 14:20:56] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:20:59", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1175, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:20:59] GET /academic/api/resources -> 200 (1175ms)
+127.0.0.1 - - [04/Sep/2025 14:20:59] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:01", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2413, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:01] GET /academic/api/folders/tree -> 200 (2413ms)
+127.0.0.1 - - [04/Sep/2025 14:21:01] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:03", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1149, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:03] GET /academic/api/resources -> 200 (1149ms)
+127.0.0.1 - - [04/Sep/2025 14:21:03] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:04", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2199, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:04] GET /academic/api/folders/tree -> 200 (2199ms)
+127.0.0.1 - - [04/Sep/2025 14:21:04] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:21:18", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 16, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:18] GET /academic/ -> 200 (16ms)
+127.0.0.1 - - [04/Sep/2025 14:21:18] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:18", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 358, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:18] GET /light.css -> 304 (358ms)
+127.0.0.1 - - [04/Sep/2025 14:21:18] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:21:18", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 397, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:18] GET /dark.css -> 304 (397ms)
+127.0.0.1 - - [04/Sep/2025 14:21:18] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:21:18", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 400, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:18] GET /theme.js -> 304 (400ms)
+127.0.0.1 - - [04/Sep/2025 14:21:18] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:21:20", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1498, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:20] GET /academic/api/categories -> 200 (1498ms)
+127.0.0.1 - - [04/Sep/2025 14:21:20] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:20", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1562, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:20] GET /academic/api/resources -> 200 (1562ms)
+127.0.0.1 - - [04/Sep/2025 14:21:20] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:21", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2741, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:21] GET /academic/api/folders/tree -> 200 (2741ms)
+127.0.0.1 - - [04/Sep/2025 14:21:21] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:26", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 785, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:26] GET /academic/api/resources -> 200 (785ms)
+127.0.0.1 - - [04/Sep/2025 14:21:26] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:27", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2367, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:27] GET /academic/api/folders/tree -> 200 (2367ms)
+127.0.0.1 - - [04/Sep/2025 14:21:27] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:35", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 0, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:35] GET /academic/ -> 200 (0ms)
+127.0.0.1 - - [04/Sep/2025 14:21:35] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:35", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:35] GET /light.css -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:21:35] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:21:35", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 4, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:35] GET /dark.css -> 304 (4ms)
+{"time": "2025-09-04 14:21:35", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 2, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+127.0.0.1 - - [04/Sep/2025 14:21:35] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+[2025-09-04 14:21:35] GET /theme.js -> 304 (2ms)
+127.0.0.1 - - [04/Sep/2025 14:21:35] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:21:37", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1539, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:37] GET /academic/api/categories -> 200 (1539ms)
+127.0.0.1 - - [04/Sep/2025 14:21:37] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:37", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1547, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:37] GET /academic/api/resources -> 200 (1547ms)
+127.0.0.1 - - [04/Sep/2025 14:21:37] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:21:39", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3173, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:21:39] GET /academic/api/folders/tree -> 200 (3173ms)
+127.0.0.1 - - [04/Sep/2025 14:21:39] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:32:05", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 13, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:05] GET /academic/ -> 200 (13ms)
+127.0.0.1 - - [04/Sep/2025 14:32:05] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:05", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 404, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:05] GET /theme.js -> 304 (404ms)
+127.0.0.1 - - [04/Sep/2025 14:32:05] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:32:05", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 430, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:05] GET /light.css -> 304 (430ms)
+127.0.0.1 - - [04/Sep/2025 14:32:05] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:32:05", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 432, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:05] GET /dark.css -> 304 (432ms)
+127.0.0.1 - - [04/Sep/2025 14:32:05] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:32:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1457, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:07] GET /academic/api/categories -> 200 (1457ms)
+127.0.0.1 - - [04/Sep/2025 14:32:07] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:07", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1621, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:07] GET /academic/api/resources -> 200 (1621ms)
+127.0.0.1 - - [04/Sep/2025 14:32:07] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:08", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2462, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:08] GET /academic/api/folders/tree -> 200 (2462ms)
+127.0.0.1 - - [04/Sep/2025 14:32:08] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:10", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 920, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:10] GET /academic/api/resources -> 200 (920ms)
+127.0.0.1 - - [04/Sep/2025 14:32:10] "GET /academic/api/resources?folder_id=8 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:12", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1683, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:12] GET /academic/api/resources -> 200 (1683ms)
+127.0.0.1 - - [04/Sep/2025 14:32:12] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:12", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3242, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:12] GET /academic/api/folders/tree -> 200 (3242ms)
+127.0.0.1 - - [04/Sep/2025 14:32:12] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:14", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1505, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:14] GET /academic/api/resources -> 200 (1505ms)
+127.0.0.1 - - [04/Sep/2025 14:32:14] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:15", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3786, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:15] GET /academic/api/folders/tree -> 200 (3786ms)
+127.0.0.1 - - [04/Sep/2025 14:32:15] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:16", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2781, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:16] GET /academic/api/folders/tree -> 200 (2781ms)
+127.0.0.1 - - [04/Sep/2025 14:32:16] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:16", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 704, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:16] GET /academic/api/resources -> 200 (704ms)
+127.0.0.1 - - [04/Sep/2025 14:32:16] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:18", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2148, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:18] GET /academic/api/folders/tree -> 200 (2148ms)
+127.0.0.1 - - [04/Sep/2025 14:32:18] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:21", "ip": "127.0.0.1", "method": "DELETE", "path": "/academic/api/resources/5", "status": 200, "duration_ms": 1394, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:21] DELETE /academic/api/resources/5 -> 200 (1394ms)
+127.0.0.1 - - [04/Sep/2025 14:32:21] "DELETE /academic/api/resources/5 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:22", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 690, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:22] GET /academic/api/resources -> 200 (690ms)
+127.0.0.1 - - [04/Sep/2025 14:32:22] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:39", "ip": "127.0.0.1", "method": "POST", "path": "/academic/api/resources", "status": 200, "duration_ms": 650, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:39] POST /academic/api/resources -> 200 (650ms)
+127.0.0.1 - - [04/Sep/2025 14:32:39] "POST /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:40", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 530, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:40] GET /academic/api/resources -> 200 (530ms)
+127.0.0.1 - - [04/Sep/2025 14:32:40] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:46", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 788, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:46] GET /academic/api/resources -> 200 (788ms)
+127.0.0.1 - - [04/Sep/2025 14:32:46] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:48", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2665, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:48] GET /academic/api/folders/tree -> 200 (2665ms)
+127.0.0.1 - - [04/Sep/2025 14:32:48] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:48", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1405, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:48] GET /academic/api/resources -> 200 (1405ms)
+127.0.0.1 - - [04/Sep/2025 14:32:48] "GET /academic/api/resources?folder_id=8 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:50", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1355, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:50] GET /academic/api/resources -> 200 (1355ms)
+127.0.0.1 - - [04/Sep/2025 14:32:50] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:51", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3418, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:51] GET /academic/api/folders/tree -> 200 (3418ms)
+127.0.0.1 - - [04/Sep/2025 14:32:51] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:53", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1865, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:53] GET /academic/api/resources -> 200 (1865ms)
+127.0.0.1 - - [04/Sep/2025 14:32:53] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:53", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3944, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:53] GET /academic/api/folders/tree -> 200 (3944ms)
+127.0.0.1 - - [04/Sep/2025 14:32:53] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:32:54", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2954, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:32:54] GET /academic/api/folders/tree -> 200 (2954ms)
+127.0.0.1 - - [04/Sep/2025 14:32:54] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:33:18", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/preview/6", "status": 200, "duration_ms": 595, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:33:18] GET /academic/api/preview/6 -> 200 (595ms)
+127.0.0.1 - - [04/Sep/2025 14:33:18] "GET /academic/api/preview/6 HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:37:00", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 29, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:37:00] GET /academic/ -> 200 (29ms)
+127.0.0.1 - - [04/Sep/2025 14:37:00] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:37:00", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 410, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:37:00] GET /dark.css -> 304 (410ms)
+127.0.0.1 - - [04/Sep/2025 14:37:00] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:37:00", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 430, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:37:00] GET /light.css -> 304 (430ms)
+127.0.0.1 - - [04/Sep/2025 14:37:00] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:37:00", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 445, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:37:00] GET /theme.js -> 304 (445ms)
+127.0.0.1 - - [04/Sep/2025 14:37:00] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:37:02", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1673, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:37:02] GET /academic/api/categories -> 200 (1673ms)
+127.0.0.1 - - [04/Sep/2025 14:37:02] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:37:02", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1983, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:37:02] GET /academic/api/resources -> 200 (1983ms)
+127.0.0.1 - - [04/Sep/2025 14:37:02] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:37:04", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3485, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:37:04] GET /academic/api/folders/tree -> 200 (3485ms)
+127.0.0.1 - - [04/Sep/2025 14:37:04] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:37:05", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources/6", "status": 200, "duration_ms": 415, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:37:05] GET /academic/api/resources/6 -> 200 (415ms)
+127.0.0.1 - - [04/Sep/2025 14:37:05] "GET /academic/api/resources/6 HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:39:34", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 18, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:34] GET /academic/ -> 200 (18ms)
+127.0.0.1 - - [04/Sep/2025 14:39:34] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:39:34", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 307, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:34] GET /light.css -> 304 (307ms)
+127.0.0.1 - - [04/Sep/2025 14:39:34] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:39:34", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 319, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:34] GET /dark.css -> 304 (319ms)
+127.0.0.1 - - [04/Sep/2025 14:39:34] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:39:34", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 332, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:34] GET /theme.js -> 304 (332ms)
+127.0.0.1 - - [04/Sep/2025 14:39:34] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:39:35", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1248, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:35] GET /academic/api/categories -> 200 (1248ms)
+127.0.0.1 - - [04/Sep/2025 14:39:36] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:39:36", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1413, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:36] GET /academic/api/resources -> 200 (1413ms)
+127.0.0.1 - - [04/Sep/2025 14:39:36] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:39:37", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2740, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:37] GET /academic/api/folders/tree -> 200 (2740ms)
+127.0.0.1 - - [04/Sep/2025 14:39:37] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:39:41", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources/6", "status": 200, "duration_ms": 422, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:41] GET /academic/api/resources/6 -> 200 (422ms)
+127.0.0.1 - - [04/Sep/2025 14:39:41] "GET /academic/api/resources/6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:39:47", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources/6", "status": 200, "duration_ms": 333, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:47] GET /academic/api/resources/6 -> 200 (333ms)
+127.0.0.1 - - [04/Sep/2025 14:39:47] "GET /academic/api/resources/6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:39:54", "ip": "127.0.0.1", "method": "PUT", "path": "/academic/api/resources/6", "status": 200, "duration_ms": 797, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:54] PUT /academic/api/resources/6 -> 200 (797ms)
+127.0.0.1 - - [04/Sep/2025 14:39:54] "PUT /academic/api/resources/6 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:39:55", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 369, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:39:55] GET /academic/api/resources -> 200 (369ms)
+127.0.0.1 - - [04/Sep/2025 14:39:55] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:10", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1085, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:10] GET /academic/api/resources -> 200 (1085ms)
+127.0.0.1 - - [04/Sep/2025 14:40:10] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:12", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1894, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:12] GET /academic/api/resources -> 200 (1894ms)
+127.0.0.1 - - [04/Sep/2025 14:40:12] "GET /academic/api/resources?folder_id=8 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:12", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3717, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:12] GET /academic/api/folders/tree -> 200 (3717ms)
+127.0.0.1 - - [04/Sep/2025 14:40:12] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:14", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1373, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:14] GET /academic/api/resources -> 200 (1373ms)
+127.0.0.1 - - [04/Sep/2025 14:40:14] "GET /academic/api/resources?folder_id=9 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:14", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4222, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:14] GET /academic/api/folders/tree -> 200 (4222ms)
+127.0.0.1 - - [04/Sep/2025 14:40:14] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:16", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1472, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:16] GET /academic/api/resources -> 200 (1472ms)
+127.0.0.1 - - [04/Sep/2025 14:40:16] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:17", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 4046, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:17] GET /academic/api/folders/tree -> 200 (4046ms)
+127.0.0.1 - - [04/Sep/2025 14:40:17] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:18", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2791, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:18] GET /academic/api/folders/tree -> 200 (2791ms)
+127.0.0.1 - - [04/Sep/2025 14:40:18] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:40:18", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/preview/6", "status": 304, "duration_ms": 554, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:40:18] GET /academic/api/preview/6 -> 304 (554ms)
+127.0.0.1 - - [04/Sep/2025 14:40:18] "[36mGET /academic/api/preview/6 HTTP/1.1[0m" 304 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+{"time": "2025-09-04 14:45:49", "ip": "127.0.0.1", "method": "GET", "path": "/academic/", "status": 200, "duration_ms": 16, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:49] GET /academic/ -> 200 (16ms)
+127.0.0.1 - - [04/Sep/2025 14:45:49] "GET /academic/ HTTP/1.1" 200 -
+{"time": "2025-09-04 14:45:49", "ip": "127.0.0.1", "method": "GET", "path": "/light.css", "status": 304, "duration_ms": 384, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:49] GET /light.css -> 304 (384ms)
+127.0.0.1 - - [04/Sep/2025 14:45:49] "[36mGET /light.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:45:49", "ip": "127.0.0.1", "method": "GET", "path": "/dark.css", "status": 304, "duration_ms": 405, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:49] GET /dark.css -> 304 (405ms)
+127.0.0.1 - - [04/Sep/2025 14:45:49] "[36mGET /dark.css HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:45:49", "ip": "127.0.0.1", "method": "GET", "path": "/theme.js", "status": 304, "duration_ms": 469, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:49] GET /theme.js -> 304 (469ms)
+127.0.0.1 - - [04/Sep/2025 14:45:49] "[36mGET /theme.js HTTP/1.1[0m" 304 -
+{"time": "2025-09-04 14:45:51", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/categories", "status": 200, "duration_ms": 1677, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:51] GET /academic/api/categories -> 200 (1677ms)
+127.0.0.1 - - [04/Sep/2025 14:45:51] "GET /academic/api/categories HTTP/1.1" 200 -
+{"time": "2025-09-04 14:45:52", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 2200, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:52] GET /academic/api/resources -> 200 (2200ms)
+127.0.0.1 - - [04/Sep/2025 14:45:52] "GET /academic/api/resources HTTP/1.1" 200 -
+{"time": "2025-09-04 14:45:53", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 3433, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:53] GET /academic/api/folders/tree -> 200 (3433ms)
+127.0.0.1 - - [04/Sep/2025 14:45:53] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:45:56", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/resources", "status": 200, "duration_ms": 1005, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:56] GET /academic/api/resources -> 200 (1005ms)
+127.0.0.1 - - [04/Sep/2025 14:45:56] "GET /academic/api/resources?folder_id=7 HTTP/1.1" 200 -
+{"time": "2025-09-04 14:45:58", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/folders/tree", "status": 200, "duration_ms": 2429, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:45:58] GET /academic/api/folders/tree -> 200 (2429ms)
+127.0.0.1 - - [04/Sep/2025 14:45:58] "GET /academic/api/folders/tree HTTP/1.1" 200 -
+{"time": "2025-09-04 14:46:01", "ip": "127.0.0.1", "method": "GET", "path": "/academic/api/preview/6", "status": 304, "duration_ms": 435, "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0"}
+[2025-09-04 14:46:01] GET /academic/api/preview/6 -> 304 (435ms)
+127.0.0.1 - - [04/Sep/2025 14:46:01] "[36mGET /academic/api/preview/6 HTTP/1.1[0m" 304 -

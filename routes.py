@@ -5,14 +5,19 @@ from config import SITE_DIR, audit_logger, admin_logger, VERSION, print_version
 from auth import auth_bp
 from admin import admin_bp
 from logs import logs_bp
+from modules.academic.routes import academic_bp
 
 # 创建Flask应用
-app = Flask(__name__, static_folder="static", static_url_path="")
+app = Flask(__name__, static_folder="static", static_url_path="", template_folder="templates")
+
+# 配置session密钥
+app.secret_key = 'your-secret-key-here-change-in-production'
 
 # 注册蓝图
 app.register_blueprint(auth_bp)
 app.register_blueprint(admin_bp)
 app.register_blueprint(logs_bp)
+app.register_blueprint(academic_bp)
 
 @app.before_request
 def start_timer():
@@ -37,6 +42,10 @@ def log_request(resp):
 @app.route("/")
 def get_index():
     return send_from_directory(SITE_DIR, "login.html")
+
+@app.route("/index.html")
+def get_home():
+    return send_from_directory(SITE_DIR, "index.html")
 
 if __name__ == "__main__":
     # 打印版本信息

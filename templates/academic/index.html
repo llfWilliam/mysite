@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术资源库 - MySite</title>
+    <link rel="stylesheet" href="/light.css">
+    <link rel="stylesheet" href="/dark.css" id="dark-css" disabled>
+    <style>
+        .academic-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .academic-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        
+        .academic-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+        
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-hover);
+        }
+        
+        .filters {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        
+        .filter-group label {
+            font-weight: 500;
+            color: var(--text-color);
+        }
+        
+        .filter-group select,
+        .filter-group input {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--bg-color);
+            color: var(--text-color);
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .resource-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .resource-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--text-color);
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .resource-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .status-unread { background: #e3f2fd; color: #1976d2; }
+        .status-reading { background: #fff3e0; color: #f57c00; }
+        .status-completed { background: #e8f5e8; color: #388e3c; }
+        .status-reviewing { background: #fce4ec; color: #c2185b; }
+        
+        .resource-abstract {
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .resource-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .btn-sm {
+            padding: 6px 12px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-color);
+            color: var(--text-color);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        
+        .btn-sm:hover {
+            background: var(--hover-bg);
+        }
+        
+        .btn-download {
+            background: var(--success-color);
+            color: white;
+            border-color: var(--success-color);
+        }
+        
+        .btn-download:hover {
+            background: var(--success-hover);
+        }
+        
+        .btn-preview {
+            background: var(--info-color);
+            color: white;
+            border-color: var(--info-color);
+        }
+        
+        .btn-preview:hover {
+            background: var(--info-hover);
+        }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+        }
+        
+        .pagination button {
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-color);
+            color: var(--text-color);
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .pagination button:hover:not(:disabled) {
+            background: var(--hover-bg);
+        }
+        
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .pagination .active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        
+        .empty-state h3 {
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .modal-content {
+            background-color: var(--bg-color);
+            margin: 5% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .modal-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+        
+        .close {
+            color: var(--text-muted);
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: var(--text-color);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: var(--text-color);
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-size: 1rem;
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .form-group input[type="file"] {
+            padding: 5px;
+        }
+        
+        .form-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+        
+        .btn-secondary {
+            background: var(--text-muted);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .btn-secondary:hover {
+            background: var(--text-color);
+        }
+        
+        @media (max-width: 768px) {
+            .academic-header {
+                flex-direction: column;
+                gap: 15px;
+                align-items: stretch;
+            }
+            
+            .filters {
+                flex-direction: column;
+            }
+            
+            .resources-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .resource-actions {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="academic-container">
+        <!-- 页面头部 -->
+        <div class="academic-header">
+            <h1 class="academic-title">学术资源库</h1>
+            <button class="btn-primary" onclick="openAddModal()">
+                <i class="icon-plus"></i> 添加资源
+            </button>
+        </div>
+        
+        <!-- 筛选器 -->
+        <div class="filters">
+            <div class="filter-group">
+                <label for="subjectFilter">学科分类</label>
+                <select id="subjectFilter">
+                    <option value="">全部分类</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="statusFilter">阅读状态</label>
+                <select id="statusFilter">
+                    <option value="">全部状态</option>
+                    <option value="unread">未读</option>
+                    <option value="reading">阅读中</option>
+                    <option value="completed">已完成</option>
+                    <option value="reviewing">复习中</option>
+                </select>
+            </div>
+            
+            <div class="filter-group search-box">
+                <label for="searchInput">搜索</label>
+                <input type="text" id="searchInput" placeholder="搜索标题、作者或摘要...">
+            </div>
+        </div>
+        
+        <!-- 资源列表 -->
+        <div id="resourcesContainer">
+            <div class="loading">加载中...</div>
+        </div>
+        
+        <!-- 分页 -->
+        <div id="pagination" class="pagination" style="display: none;"></div>
+    </div>
+    
+    <!-- 添加/编辑资源模态框 -->
+    <div id="resourceModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle">添加学术资源</h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            
+            <form id="resourceForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="title">标题 *</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="authors">作者</label>
+                    <input type="text" id="authors" name="authors" placeholder="多个作者用逗号分隔">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">学科分类</label>
+                    <select id="subject" name="subject">
+                        <option value="">选择学科</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="publication_year">发表年份</label>
+                    <input type="number" id="publication_year" name="publication_year" min="1900" max="2030">
+                </div>
+                
+                <div class="form-group">
+                    <label for="file">文件上传</label>
+                    <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.txt">
+                </div>
+                
+                <div class="form-group">
+                    <label for="abstract">摘要</label>
+                    <textarea id="abstract" name="abstract" placeholder="输入资源摘要..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="keywords">关键词</label>
+                    <input type="text" id="keywords" name="keywords" placeholder="多个关键词用逗号分隔">
+                </div>
+                
+                <div class="form-group">
+                    <label for="tags">标签</label>
+                    <input type="text" id="tags" name="tags" placeholder="多个标签用逗号分隔">
+                </div>
+                
+                <div class="form-group">
+                    <label for="notes">个人笔记</label>
+                    <textarea id="notes" name="notes" placeholder="输入个人笔记..."></textarea>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="button" class="btn-secondary" onclick="closeModal()">取消</button>
+                    <button type="submit" class="btn-primary">保存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="/theme.js"></script>
+    <script>
+        // 全局变量
+        let currentPage = 1;
+        let currentFilters = {};
+        let editingResourceId = null;
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSubjects();
+            loadResources();
+            setupEventListeners();
+        });
+        
+        // 设置事件监听器
+        function setupEventListeners() {
+            // 筛选器变化
+            document.getElementById('subjectFilter').addEventListener('change', applyFilters);
+            document.getElementById('statusFilter').addEventListener('change', applyFilters);
+            document.getElementById('searchInput').addEventListener('input', debounce(applyFilters, 500));
+            
+            // 表单提交
+            document.getElementById('resourceForm').addEventListener('submit', handleFormSubmit);
+        }
+        
+        // 防抖函数
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+        
+        // 加载学科分类
+        async function loadSubjects() {
+            try {
+                const response = await fetch('/academic/api/subjects', {
+                    credentials: 'include'
+                });
+                const result = await response.json();
+                
+                if (result.success) {
+                    const subjectSelect = document.getElementById('subject');
+                    const subjectFilter = document.getElementById('subjectFilter');
+                    
+                    result.data.forEach(subject => {
+                        const option1 = new Option(subject.name, subject.name);
+                        const option2 = new Option(subject.name, subject.name);
+                        subjectSelect.add(option1);
+                        subjectFilter.add(option2);
+                    });
+                }
+            } catch (error) {
+                console.error('加载学科分类失败:', error);
+            }
+        }
+        
+        // 加载资源列表
+        async function loadResources(page = 1) {
+            try {
+                const container = document.getElementById('resourcesContainer');
+                container.innerHTML = '<div class="loading">加载中...</div>';
+                
+                const params = new URLSearchParams({
+                    page: page,
+                    per_page: 20,
+                    ...currentFilters
+                });
+                
+                const response = await fetch(`/academic/api/resources?${params}`, {
+                    credentials: 'include'
+                });
+                const result = await response.json();
+                
+                if (result.success) {
+                    displayResources(result.data.resources);
+                    displayPagination(result.data);
+                } else {
+                    container.innerHTML = `<div class="empty-state"><h3>加载失败</h3><p>${result.message}</p></div>`;
+                }
+            } catch (error) {
+                console.error('加载资源失败:', error);
+                document.getElementById('resourcesContainer').innerHTML = 
+                    '<div class="empty-state"><h3>加载失败</h3><p>网络错误，请稍后重试</p></div>';
+            }
+        }
+        
+        // 显示资源列表
+        function displayResources(resources) {
+            const container = document.getElementById('resourcesContainer');
+            
+            if (resources.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>暂无资源</h3>
+                        <p>还没有添加任何学术资源，点击上方按钮开始添加吧！</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            const html = resources.map(resource => `
+                <div class="resource-card">
+                    <div class="resource-title">${escapeHtml(resource.title)}</div>
+                    
+                    <div class="resource-meta">
+                        ${resource.authors ? `<div class="meta-item"><i class="icon-user"></i> ${escapeHtml(resource.authors)}</div>` : ''}
+                        ${resource.subject ? `<div class="meta-item"><i class="icon-folder"></i> ${escapeHtml(resource.subject)}</div>` : ''}
+                        ${resource.publication_year ? `<div class="meta-item"><i class="icon-calendar"></i> ${resource.publication_year}</div>` : ''}
+                        <div class="meta-item">
+                            <span class="status-badge status-${resource.reading_status}">
+                                ${getStatusText(resource.reading_status)}
+                            </span>
+                        </div>
+                    </div>
+                    
+                    ${resource.abstract ? `<div class="resource-abstract">${escapeHtml(resource.abstract)}</div>` : ''}
+                    
+                    <div class="resource-actions">
+                        ${resource.file_path ? `
+                            <button class="btn-sm btn-download" onclick="downloadFile(${resource.id})">
+                                <i class="icon-download"></i> 下载
+                            </button>
+                            ${resource.file_type === 'pdf' ? `
+                                <button class="btn-sm btn-preview" onclick="previewFile(${resource.id})">
+                                    <i class="icon-eye"></i> 预览
+                                </button>
+                            ` : ''}
+                        ` : ''}
+                        <button class="btn-sm" onclick="editResource(${resource.id})">
+                            <i class="icon-edit"></i> 编辑
+                        </button>
+                        <button class="btn-sm" onclick="deleteResource(${resource.id})" style="color: var(--danger-color);">
+                            <i class="icon-trash"></i> 删除
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+            
+            container.innerHTML = `<div class="resources-grid">${html}</div>`;
+        }
+        
+        // 显示分页
+        function displayPagination(data) {
+            const pagination = document.getElementById('pagination');
+            
+            if (data.pages <= 1) {
+                pagination.style.display = 'none';
+                return;
+            }
+            
+            pagination.style.display = 'flex';
+            
+            let html = '';
+            
+            // 上一页
+            html += `<button ${data.page <= 1 ? 'disabled' : ''} onclick="loadResources(${data.page - 1})">上一页</button>`;
+            
+            // 页码
+            const startPage = Math.max(1, data.page - 2);
+            const endPage = Math.min(data.pages, data.page + 2);
+            
+            for (let i = startPage; i <= endPage; i++) {
+                html += `<button class="${i === data.page ? 'active' : ''}" onclick="loadResources(${i})">${i}</button>`;
+            }
+            
+            // 下一页
+            html += `<button ${data.page >= data.pages ? 'disabled' : ''} onclick="loadResources(${data.page + 1})">下一页</button>`;
+            
+            pagination.innerHTML = html;
+        }
+        
+        // 应用筛选器
+        function applyFilters() {
+            currentFilters = {
+                subject: document.getElementById('subjectFilter').value,
+                status: document.getElementById('statusFilter').value,
+                search: document.getElementById('searchInput').value.trim()
+            };
+            
+            // 移除空值
+            Object.keys(currentFilters).forEach(key => {
+                if (!currentFilters[key]) {
+                    delete currentFilters[key];
+                }
+            });
+            
+            currentPage = 1;
+            loadResources(currentPage);
+        }
+        
+        // 打开添加模态框
+        function openAddModal() {
+            editingResourceId = null;
+            document.getElementById('modalTitle').textContent = '添加学术资源';
+            document.getElementById('resourceForm').reset();
+            document.getElementById('resourceModal').style.display = 'block';
+        }
+        
+        // 编辑资源
+        async function editResource(resourceId) {
+            try {
+                const response = await fetch(`/academic/api/resources/${resourceId}`, {
+                    credentials: 'include'
+                });
+                const result = await response.json();
+                
+                if (result.success) {
+                    const resource = result.data;
+                    editingResourceId = resourceId;
+                    
+                    // 填充表单
+                    document.getElementById('modalTitle').textContent = '编辑学术资源';
+                    document.getElementById('title').value = resource.title || '';
+                    document.getElementById('authors').value = resource.authors || '';
+                    document.getElementById('subject').value = resource.subject || '';
+                    document.getElementById('publication_year').value = resource.publication_year || '';
+                    document.getElementById('abstract').value = resource.abstract || '';
+                    document.getElementById('keywords').value = resource.keywords ? resource.keywords.join(', ') : '';
+                    document.getElementById('notes').value = resource.notes || '';
+                    
+                    document.getElementById('resourceModal').style.display = 'block';
+                } else {
+                    alert('加载资源信息失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('加载资源信息失败:', error);
+                alert('加载资源信息失败，请稍后重试');
+            }
+        }
+        
+        // 关闭模态框
+        function closeModal() {
+            document.getElementById('resourceModal').style.display = 'none';
+            editingResourceId = null;
+        }
+        
+        // 处理表单提交
+        async function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const submitButton = event.target.querySelector('button[type="submit"]');
+            
+            try {
+                submitButton.disabled = true;
+                submitButton.textContent = '保存中...';
+                
+                let response;
+                if (editingResourceId) {
+                    // 编辑模式
+                    const data = Object.fromEntries(formData.entries());
+                    response = await fetch(`/academic/api/resources/${editingResourceId}`, {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        credentials: 'include',
+                        body: JSON.stringify(data)
+                    });
+                } else {
+                    // 添加模式
+                    response = await fetch('/academic/api/resources', {
+                        method: 'POST',
+                        credentials: 'include',
+                        body: formData
+                    });
+                }
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    closeModal();
+                    loadResources(currentPage);
+                    alert(editingResourceId ? '资源更新成功' : '资源添加成功');
+                } else {
+                    alert('操作失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('提交失败:', error);
+                alert('操作失败，请稍后重试');
+            } finally {
+                submitButton.disabled = false;
+                submitButton.textContent = '保存';
+            }
+        }
+        
+        // 删除资源
+        async function deleteResource(resourceId) {
+            if (!confirm('确定要删除这个资源吗？此操作不可恢复。')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/academic/api/resources/${resourceId}`, {
+                    method: 'DELETE',
+                    credentials: 'include'
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    loadResources(currentPage);
+                    alert('资源删除成功');
+                } else {
+                    alert('删除失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('删除失败:', error);
+                alert('删除失败，请稍后重试');
+            }
+        }
+        
+        // 下载文件
+        function downloadFile(resourceId) {
+            window.open(`/academic/api/download/${resourceId}`, '_blank');
+        }
+        
+        // 预览文件
+        function previewFile(resourceId) {
+            window.open(`/academic/api/preview/${resourceId}`, '_blank');
+        }
+        
+        // 工具函数
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function getStatusText(status) {
+            const statusMap = {
+                'unread': '未读',
+                'reading': '阅读中',
+                'completed': '已完成',
+                'reviewing': '复习中'
+            };
+            return statusMap[status] || status;
+        }
+        
+        // 点击模态框外部关闭
+        window.onclick = function(event) {
+            const modal = document.getElementById('resourceModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+</html>

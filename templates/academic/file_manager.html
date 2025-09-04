@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术资源库 - 文件管理器 - MySite</title>
+    <link rel="stylesheet" href="/light.css">
+    <link rel="stylesheet" href="/dark.css" id="dark-css" disabled>
+    <style>
+        .file-manager {
+            display: flex;
+            height: calc(100vh - 60px);
+            background: var(--bg-color);
+        }
+        
+        /* 侧边栏 */
+        .sidebar {
+            width: 300px;
+            background: var(--card-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .sidebar-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--text-color);
+            margin-bottom: 15px;
+        }
+        
+        .search-box {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--bg-color);
+            color: var(--text-color);
+        }
+        
+        .folder-tree {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        
+        .folder-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            margin: 2px 0;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        
+        .folder-item:hover {
+            background: var(--hover-bg);
+        }
+        
+        .folder-item.active {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .folder-icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+            color: var(--primary-color);
+        }
+        
+        .folder-item.active .folder-icon {
+            color: white;
+        }
+        
+        .folder-name {
+            flex: 1;
+            font-size: 0.9rem;
+        }
+        
+        .folder-actions {
+            display: none;
+            gap: 5px;
+        }
+        
+        .folder-item:hover .folder-actions {
+            display: flex;
+        }
+        
+        .btn-icon {
+            width: 20px;
+            height: 20px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+        }
+        
+        .btn-icon:hover {
+            background: var(--hover-bg);
+            color: var(--text-color);
+        }
+        
+        /* 主内容区 */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .toolbar {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: var(--card-bg);
+        }
+        
+        .breadcrumb {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .breadcrumb-item {
+            color: var(--text-muted);
+            cursor: pointer;
+        }
+        
+        .breadcrumb-item:hover {
+            color: var(--text-color);
+        }
+        
+        .breadcrumb-separator {
+            color: var(--text-muted);
+        }
+        
+        .toolbar-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 8px 16px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-color);
+            color: var(--text-color);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        
+        .btn:hover {
+            background: var(--hover-bg);
+        }
+        
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-hover);
+        }
+        
+        /* 文件列表 */
+        .file-list {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .file-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .file-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        
+        .file-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .file-icon {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 8px;
+            font-size: 1.2rem;
+        }
+        
+        .file-name {
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 5px;
+            word-break: break-word;
+        }
+        
+        .file-meta {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+        
+        .file-actions {
+            display: none;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            gap: 5px;
+        }
+        
+        .file-item:hover .file-actions {
+            display: flex;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        
+        .empty-state h3 {
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+        
+        /* 模态框 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .modal-content {
+            background-color: var(--bg-color);
+            margin: 2% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .modal-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+        
+        .close {
+            color: var(--text-muted);
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: var(--text-color);
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: var(--text-color);
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--bg-color);
+            color: var(--text-color);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        
+        .form-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+        
+        .btn-secondary {
+            background: var(--text-muted);
+            color: white;
+            border: none;
+        }
+        
+        .btn-secondary:hover {
+            background: var(--text-color);
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .file-manager {
+                flex-direction: column;
+                height: auto;
+            }
+            
+            .sidebar {
+                width: 100%;
+                height: 200px;
+            }
+            
+            .file-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="file-manager">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-title">📁 文件夹</div>
+                <input type="text" class="search-box" id="folderSearch" placeholder="搜索文件夹...">
+            </div>
+            <div class="folder-tree" id="folderTree">
+                <div class="loading">加载中...</div>
+            </div>
+        </div>
+        
+        <!-- 主内容区 -->
+        <div class="main-content">
+            <!-- 工具栏 -->
+            <div class="toolbar">
+                <div class="breadcrumb" id="breadcrumb">
+                    <span class="breadcrumb-item" onclick="navigateToFolder(null)">📁 我的文献</span>
+                </div>
+                <div class="toolbar-actions">
+                    <button class="btn" onclick="openCreateFolderModal()">📁 新建文件夹</button>
+                    <button class="btn" onclick="openCreateCategoryModal()">🏷️ 新建分类</button>
+                    <button class="btn btn-primary" onclick="openAddResourceModal()">📄 添加文献</button>
+                </div>
+            </div>
+            
+            <!-- 文件列表 -->
+            <div class="file-list">
+                <div class="file-grid" id="fileGrid">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 创建文件夹模态框 -->
+    <div id="createFolderModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">创建文件夹</h2>
+                <span class="close" onclick="closeModal('createFolderModal')">&times;</span>
+            </div>
+            <form id="createFolderForm">
+                <div class="form-group">
+                    <label for="folderName">文件夹名称 *</label>
+                    <input type="text" id="folderName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="folderDescription">描述</label>
+                    <textarea id="folderDescription" name="description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="folderColor">颜色</label>
+                    <input type="color" id="folderColor" name="color" value="#007bff">
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('createFolderModal')">取消</button>
+                    <button type="submit" class="btn btn-primary">创建</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- 创建分类模态框 -->
+    <div id="createCategoryModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">创建分类</h2>
+                <span class="close" onclick="closeModal('createCategoryModal')">&times;</span>
+            </div>
+            <form id="createCategoryForm">
+                <div class="form-group">
+                    <label for="categoryName">分类名称 *</label>
+                    <input type="text" id="categoryName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="categoryDescription">描述</label>
+                    <textarea id="categoryDescription" name="description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="categoryColor">颜色</label>
+                    <input type="color" id="categoryColor" name="color" value="#6c757d">
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('createCategoryModal')">取消</button>
+                    <button type="submit" class="btn btn-primary">创建</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- 添加文献模态框 -->
+    <div id="addResourceModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">添加文献</h2>
+                <span class="close" onclick="closeModal('addResourceModal')">&times;</span>
+            </div>
+            <form id="addResourceForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="resourceTitle">标题 *</label>
+                    <input type="text" id="resourceTitle" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="resourceAuthors">作者</label>
+                    <input type="text" id="resourceAuthors" name="authors" placeholder="多个作者用逗号分隔">
+                </div>
+                <div class="form-group">
+                    <label for="resourceFolder">文件夹</label>
+                    <select id="resourceFolder" name="folder_id">
+                        <option value="">选择文件夹</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="resourceCategory">分类</label>
+                    <select id="resourceCategory" name="user_category_id">
+                        <option value="">选择分类</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="resourceFile">文件</label>
+                    <input type="file" id="resourceFile" name="file" accept=".pdf,.doc,.docx,.txt">
+                </div>
+                <div class="form-group">
+                    <label for="resourceAbstract">摘要</label>
+                    <textarea id="resourceAbstract" name="abstract"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('addResourceModal')">取消</button>
+                    <button type="submit" class="btn btn-primary">添加</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- 编辑文件夹模态框 -->
+    <div id="editFolderModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">编辑文件夹</h2>
+                <span class="close" onclick="closeModal('editFolderModal')">&times;</span>
+            </div>
+            <form id="editFolderForm">
+                <input type="hidden" id="editFolderId" name="id">
+                <div class="form-group">
+                    <label for="editFolderName">文件夹名称 *</label>
+                    <input type="text" id="editFolderName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="editFolderDescription">描述</label>
+                    <textarea id="editFolderDescription" name="description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="editFolderColor">颜色</label>
+                    <input type="color" id="editFolderColor" name="color" value="#007bff">
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('editFolderModal')">取消</button>
+                    <button type="submit" class="btn btn-primary">保存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- 编辑文献模态框 -->
+    <div id="editResourceModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">编辑文献</h2>
+                <span class="close" onclick="closeModal('editResourceModal')">&times;</span>
+            </div>
+            <form id="editResourceForm">
+                <input type="hidden" id="editResourceId" name="id">
+                <div class="form-group">
+                    <label for="editResourceTitle">标题 *</label>
+                    <input type="text" id="editResourceTitle" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="editResourceAuthors">作者</label>
+                    <input type="text" id="editResourceAuthors" name="authors" placeholder="多个作者用逗号分隔">
+                </div>
+                <div class="form-group">
+                    <label for="editResourceFolder">文件夹</label>
+                    <select id="editResourceFolder" name="folder_id">
+                        <option value="">选择文件夹</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="editResourceCategory">分类</label>
+                    <select id="editResourceCategory" name="user_category_id">
+                        <option value="">选择分类</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="editResourceSubject">学科</label>
+                    <input type="text" id="editResourceSubject" name="subject" placeholder="学科分类">
+                </div>
+                <div class="form-group">
+                    <label for="editResourceYear">发表年份</label>
+                    <input type="number" id="editResourceYear" name="publication_year" min="1900" max="2030">
+                </div>
+                <div class="form-group">
+                    <label for="editResourceKeywords">关键词</label>
+                    <input type="text" id="editResourceKeywords" name="keywords" placeholder="多个关键词用逗号分隔">
+                </div>
+                <div class="form-group">
+                    <label for="editResourceStatus">阅读状态</label>
+                    <select id="editResourceStatus" name="reading_status">
+                        <option value="unread">未读</option>
+                        <option value="reading">阅读中</option>
+                        <option value="completed">已完成</option>
+                        <option value="reviewing">复习中</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="editResourceAbstract">摘要</label>
+                    <textarea id="editResourceAbstract" name="abstract" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="editResourceNotes">个人笔记</label>
+                    <textarea id="editResourceNotes" name="notes" rows="3"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('editResourceModal')">取消</button>
+                    <button type="submit" class="btn btn-primary">保存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="/theme.js"></script>
+    <script>
+        // 全局变量
+        let currentFolderId = null;
+        let folders = [];
+        let categories = [];
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            loadFolderTree();
+            loadCategories();
+            loadResources();
+            setupEventListeners();
+        });
+        
+        // 设置事件监听器
+        function setupEventListeners() {
+            // 文件夹搜索
+            document.getElementById('folderSearch').addEventListener('input', filterFolders);
+            
+            // 表单提交
+            document.getElementById('createFolderForm').addEventListener('submit', handleCreateFolder);
+            document.getElementById('editFolderForm').addEventListener('submit', handleEditFolder);
+            document.getElementById('createCategoryForm').addEventListener('submit', handleCreateCategory);
+            document.getElementById('addResourceForm').addEventListener('submit', handleAddResource);
+            document.getElementById('editResourceForm').addEventListener('submit', handleEditResource);
+        }
+        
+        // 加载文件夹树
+        async function loadFolderTree() {
+            try {
+                const response = await fetch('/academic/api/folders/tree', {
+                    credentials: 'include'
+                });
+                const result = await response.json();
+                
+                if (result.success) {
+                    folders = result.data;
+                    console.log('文件夹数据:', folders);
+                    displayFolderTree(folders);
+                } else {
+                    console.error('加载文件夹树失败:', result.message);
+                }
+            } catch (error) {
+                console.error('加载文件夹树失败:', error);
+            }
+        }
+        
+        // 显示文件夹列表（简化版，无层级）
+        function displayFolderTree(folderList) {
+            const container = document.getElementById('folderTree');
+            
+            if (!folderList || folderList.length === 0) {
+                container.innerHTML = '<div class="empty-state"><p>暂无文件夹</p></div>';
+                return;
+            }
+            
+            // 只显示根级别的文件夹，忽略children
+            const rootFolders = folderList.filter(folder => !folder.parent_id);
+            
+            const html = rootFolders.map(folder => `
+                <div class="folder-item ${currentFolderId === folder.id ? 'active' : ''}" 
+                     onclick="navigateToFolder(${folder.id})">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">${escapeHtml(folder.name)}</span>
+                    <div class="folder-actions">
+                        <button class="btn-icon" onclick="event.stopPropagation(); editFolder(${folder.id})" title="编辑">✏️</button>
+                        <button class="btn-icon" onclick="event.stopPropagation(); deleteFolder(${folder.id})" title="删除">🗑️</button>
+                    </div>
+                </div>
+            `).join('');
+            
+            container.innerHTML = html;
+        }
+        
+        // 加载分类
+        async function loadCategories() {
+            try {
+                const response = await fetch('/academic/api/categories', {
+                    credentials: 'include'
+                });
+                const result = await response.json();
+                
+                if (result.success) {
+                    categories = result.data;
+                    updateCategorySelects();
+                }
+            } catch (error) {
+                console.error('加载分类失败:', error);
+            }
+        }
+        
+        // 更新分类选择框
+        function updateCategorySelects() {
+            const select = document.getElementById('resourceCategory');
+            select.innerHTML = '<option value="">选择分类</option>';
+            
+            categories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category.id;
+                option.textContent = category.name;
+                select.appendChild(option);
+            });
+        }
+        
+        // 加载资源
+        async function loadResources() {
+            try {
+                const container = document.getElementById('fileGrid');
+                container.innerHTML = '<div class="loading">加载中...</div>';
+                
+                const params = new URLSearchParams();
+                if (currentFolderId !== null && currentFolderId !== undefined) {
+                    params.append('folder_id', currentFolderId);
+                }
+                
+                console.log('Loading resources for folder:', currentFolderId);
+                console.log('API URL:', `/academic/api/resources?${params}`);
+                
+                const response = await fetch(`/academic/api/resources?${params}`, {
+                    credentials: 'include'
+                });
+                const result = await response.json();
+                
+                console.log('Resources response:', result);
+                
+                if (result.success) {
+                    displayResources(result.data.resources);
+                } else {
+                    container.innerHTML = '<div class="empty-state"><h3>加载失败</h3><p>' + result.message + '</p></div>';
+                }
+            } catch (error) {
+                console.error('加载资源失败:', error);
+                document.getElementById('fileGrid').innerHTML = 
+                    '<div class="empty-state"><h3>加载失败</h3><p>网络错误，请稍后重试</p></div>';
+            }
+        }
+        
+        // 显示资源
+        function displayResources(resources) {
+            const container = document.getElementById('fileGrid');
+            
+            if (resources.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>暂无文献</h3>
+                        <p>当前文件夹为空，点击上方按钮添加文献</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            const html = resources.map(resource => {
+                // 查找文件夹名称
+                let folderName = '';
+                if (resource.folder_id !== null && resource.folder_id !== undefined) {
+                    const folder = findFolderById(folders, resource.folder_id);
+                    folderName = folder ? folder.name : '未知文件夹';
+                }
+                
+                // 查找分类名称
+                let categoryName = '';
+                if (resource.user_category_id !== null && resource.user_category_id !== undefined) {
+                    const category = categories.find(c => c.id === resource.user_category_id);
+                    categoryName = category ? category.name : '未知分类';
+                }
+                
+                return `
+                <div class="file-item" onclick="viewResource(${resource.id})">
+                    <div class="file-icon">📄</div>
+                    <div class="file-name">${escapeHtml(resource.title)}</div>
+                    <div class="file-meta">
+                        ${resource.authors ? escapeHtml(resource.authors) : '未知作者'} • 
+                        ${resource.publication_year || '未知年份'}
+                        ${folderName ? ` • 📁 ${escapeHtml(folderName)}` : ''}
+                        ${categoryName ? ` • 🏷️ ${escapeHtml(categoryName)}` : ''}
+                    </div>
+                    <div class="file-actions">
+                        ${resource.file_type === 'pdf' ? `
+                            <button class="btn-icon" onclick="event.stopPropagation(); previewFile(${resource.id})" title="预览">👁️</button>
+                        ` : ''}
+                        <button class="btn-icon" onclick="event.stopPropagation(); downloadFile(${resource.id})" title="下载">⬇️</button>
+                        <button class="btn-icon" onclick="event.stopPropagation(); editResource(${resource.id})" title="编辑">✏️</button>
+                        <button class="btn-icon" onclick="event.stopPropagation(); deleteResource(${resource.id})" title="删除">🗑️</button>
+                    </div>
+                </div>
+            `;
+            }).join('');
+            
+            container.innerHTML = html;
+        }
+        
+        // 导航到文件夹
+        function navigateToFolder(folderId) {
+            console.log('Navigating to folder:', folderId);
+            currentFolderId = folderId;
+            updateBreadcrumb(folderId);
+            loadResources();
+            // 重新加载文件夹树以更新活动状态
+            loadFolderTree();
+        }
+        
+        // 更新面包屑
+        function updateBreadcrumb(folderId) {
+            const breadcrumb = document.getElementById('breadcrumb');
+            breadcrumb.innerHTML = '<span class="breadcrumb-item" onclick="navigateToFolder(null)">📁 我的文献</span>';
+            
+            if (folderId) {
+                // 找到文件夹名称
+                const folder = findFolderById(folders, folderId);
+                const folderName = folder ? folder.name : '未知文件夹';
+                breadcrumb.innerHTML += '<span class="breadcrumb-separator">/</span><span class="breadcrumb-item">' + escapeHtml(folderName) + '</span>';
+            }
+        }
+        
+        // 打开创建文件夹模态框
+        function openCreateFolderModal() {
+            document.getElementById('createFolderModal').style.display = 'block';
+        }
+        
+        // 打开创建分类模态框
+        function openCreateCategoryModal() {
+            document.getElementById('createCategoryModal').style.display = 'block';
+        }
+        
+        // 打开添加文献模态框
+        function openAddResourceModal() {
+            // 更新文件夹选择框（只显示根级别文件夹）
+            const select = document.getElementById('resourceFolder');
+            select.innerHTML = '<option value="">选择文件夹</option>';
+            
+            // 只显示根级别的文件夹
+            const rootFolders = folders.filter(folder => !folder.parent_id);
+            rootFolders.forEach(folder => {
+                const option = document.createElement('option');
+                option.value = folder.id;
+                option.textContent = folder.name;
+                select.appendChild(option);
+            });
+            
+            // 如果当前在某个文件夹中，默认选择该文件夹
+            if (currentFolderId) {
+                select.value = currentFolderId;
+            }
+            
+            document.getElementById('addResourceModal').style.display = 'block';
+        }
+        
+        // 关闭模态框
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+        
+        // 处理创建文件夹
+        async function handleCreateFolder(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const data = {
+                name: formData.get('name'),
+                description: formData.get('description'),
+                color: formData.get('color'),
+                parent_id: null  // 所有文件夹都在根级别
+            };
+            
+            try {
+                const response = await fetch('/academic/api/folders', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    credentials: 'include',
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    closeModal('createFolderModal');
+                    loadFolderTree();
+                    alert('文件夹创建成功');
+                } else {
+                    alert('创建失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('创建文件夹失败:', error);
+                alert('创建失败，请稍后重试');
+            }
+        }
+        
+        // 处理创建分类
+        async function handleCreateCategory(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const data = {
+                name: formData.get('name'),
+                description: formData.get('description'),
+                color: formData.get('color')
+            };
+            
+            try {
+                const response = await fetch('/academic/api/categories', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    credentials: 'include',
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    closeModal('createCategoryModal');
+                    loadCategories();
+                    alert('分类创建成功');
+                } else {
+                    alert('创建失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('创建分类失败:', error);
+                alert('创建失败，请稍后重试');
+            }
+        }
+        
+        // 处理添加文献
+        async function handleAddResource(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            
+            try {
+                const response = await fetch('/academic/api/resources', {
+                    method: 'POST',
+                    credentials: 'include',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    closeModal('addResourceModal');
+                    loadResources();
+                    alert('文献添加成功');
+                } else {
+                    alert('添加失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('添加文献失败:', error);
+                alert('添加失败，请稍后重试');
+            }
+        }
+        
+        // 处理编辑文献
+        async function handleEditResource(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const resourceId = formData.get('id');
+            
+            // 准备更新数据
+            const data = {
+                title: formData.get('title'),
+                authors: formData.get('authors'),
+                subject: formData.get('subject'),
+                publication_year: formData.get('publication_year') ? parseInt(formData.get('publication_year')) : null,
+                keywords: formData.get('keywords') ? formData.get('keywords').split(',').map(k => k.trim()).filter(k => k) : [],
+                reading_status: formData.get('reading_status'),
+                abstract: formData.get('abstract'),
+                notes: formData.get('notes'),
+                folder_id: formData.get('folder_id') ? parseInt(formData.get('folder_id')) : null,
+                user_category_id: formData.get('user_category_id') ? parseInt(formData.get('user_category_id')) : null
+            };
+            
+            try {
+                const response = await fetch(`/academic/api/resources/${resourceId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    credentials: 'include',
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    closeModal('editResourceModal');
+                    loadResources();
+                    alert('文献更新成功');
+                } else {
+                    alert('更新失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('更新文献失败:', error);
+                alert('更新失败，请稍后重试');
+            }
+        }
+        
+        // 工具函数
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        // 点击模态框外部关闭
+        window.onclick = function(event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        }
+        
+        // 编辑文件夹
+        function editFolder(folderId) {
+            // 找到要编辑的文件夹
+            const folder = findFolderById(folders, folderId);
+            if (!folder) {
+                alert('文件夹不存在');
+                return;
+            }
+            
+            // 填充表单
+            document.getElementById('editFolderId').value = folder.id;
+            document.getElementById('editFolderName').value = folder.name;
+            document.getElementById('editFolderDescription').value = folder.description || '';
+            document.getElementById('editFolderColor').value = folder.color || '#007bff';
+            
+            // 显示模态框
+            document.getElementById('editFolderModal').style.display = 'block';
+        }
+        
+        // 删除文件夹
+        async function deleteFolder(folderId) {
+            if (!confirm('确定要删除这个文件夹吗？文件夹内的文件将被移动到父文件夹。')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/academic/api/folders/${folderId}`, {
+                    method: 'DELETE',
+                    credentials: 'include'
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    loadFolderTree();
+                    loadResources();
+                    alert('文件夹删除成功');
+                } else {
+                    alert('删除失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('删除文件夹失败:', error);
+                alert('删除失败，请稍后重试');
+            }
+        }
+        
+        // 处理编辑文件夹
+        async function handleEditFolder(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const folderId = formData.get('id');
+            const data = {
+                name: formData.get('name'),
+                description: formData.get('description'),
+                color: formData.get('color')
+            };
+            
+            try {
+                const response = await fetch(`/academic/api/folders/${folderId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    credentials: 'include',
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    closeModal('editFolderModal');
+                    loadFolderTree();
+                    alert('文件夹更新成功');
+                } else {
+                    alert('更新失败: ' + result.message);
+                }
+            } catch (error) {
+                console.error('更新文件夹失败:', error);
+                alert('更新失败，请稍后重试');
+            }
+        }
+        
+        // 查找文件夹（简化版，只查找根级别）
+        function findFolderById(folderList, id) {
+            return folderList.find(folder => folder.id === id) || null;
+        }
+        
+        // 预览文件
+        function previewFile(resourceId) {
+            window.open(`/academic/api/preview/${resourceId}`, '_blank');
+        }
+        
+        // 下载文件
+        function downloadFile(resourceId) {
+            window.open(`/academic/api/download/${resourceId}`, '_blank');
+        }
+        
+        // 查看资源详情
+        function viewResource(resourceId) {
+            // 可以打开一个详情模态框
+            console.log('View resource:', resourceId);
+        }
+        
+        // 编辑资源
+        async function editResource(resourceId) {
+            try {
+                // 获取资源详情
+                const response = await fetch(`/academic/api/resources/${resourceId}`, {
+                    credentials: 'include'
+                });
+                const result = await response.json();
+                
+                if (!result.success) {
+                    alert('获取文献详情失败: ' + result.message);
+                    return;
+                }
+                
+                const resource = result.data;
+                
+                // 填充编辑表单
+                document.getElementById('editResourceId').value = resource.id;
+                document.getElementById('editResourceTitle').value = resource.title || '';
+                document.getElementById('editResourceAuthors').value = resource.authors || '';
+                document.getElementById('editResourceSubject').value = resource.subject || '';
+                document.getElementById('editResourceYear').value = resource.publication_year || '';
+                document.getElementById('editResourceKeywords').value = resource.keywords ? resource.keywords.join(', ') : '';
+                document.getElementById('editResourceStatus').value = resource.reading_status || 'unread';
+                document.getElementById('editResourceAbstract').value = resource.abstract || '';
+                document.getElementById('editResourceNotes').value = resource.notes || '';
+                
+                // 更新文件夹选择框
+                const folderSelect = document.getElementById('editResourceFolder');
+                folderSelect.innerHTML = '<option value="">选择文件夹</option>';
+                const rootFolders = folders.filter(folder => !folder.parent_id);
+                rootFolders.forEach(folder => {
+                    const option = document.createElement('option');
+                    option.value = folder.id;
+                    option.textContent = folder.name;
+                    if (resource.folder_id === folder.id) {
+                        option.selected = true;
+                    }
+                    folderSelect.appendChild(option);
+                });
+                
+                // 更新分类选择框
+                const categorySelect = document.getElementById('editResourceCategory');
+                categorySelect.innerHTML = '<option value="">选择分类</option>';
+                categories.forEach(category => {
+                    const option = document.createElement('option');
+                    option.value = category.id;
+                    option.textContent = category.name;
+                    if (resource.user_category_id === category.id) {
+                        option.selected = true;
+                    }
+                    categorySelect.appendChild(option);
+                });
+                
+                // 显示编辑模态框
+                document.getElementById('editResourceModal').style.display = 'block';
+                
+            } catch (error) {
+                console.error('获取文献详情失败:', error);
+                alert('获取文献详情失败，请稍后重试');
+            }
+        }
+        
+        // 删除资源
+        function deleteResource(resourceId) {
+            if (!confirm('确定要删除这个文献吗？此操作不可恢复。')) {
+                return;
+            }
+            
+            fetch(`/academic/api/resources/${resourceId}`, {
+                method: 'DELETE',
+                credentials: 'include'
+            })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    loadResources();
+                    alert('文献删除成功');
+                } else {
+                    alert('删除失败: ' + result.message);
+                }
+            })
+            .catch(error => {
+                console.error('删除文献失败:', error);
+                alert('删除失败，请稍后重试');
+            });
+        }
+        
+        // 占位函数（待实现）
+        function filterFolders() { /* TODO */ }
+    </script>
+</body>
+</html>
